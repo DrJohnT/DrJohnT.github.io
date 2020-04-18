@@ -1,5 +1,6 @@
 ---
-Title: Getting others to pay for my home automation
+title: Getting others to pay for my home automation
+description: Giving my home a technology refresh
 category: home-automation
 order: 1
 ---
