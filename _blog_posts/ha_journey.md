@@ -4,6 +4,7 @@ description: Giving my home a technology refresh
 category: home-automation
 published: 2020-04-18
 order: 1
+theme: jekyll-theme-architect
 ---
 # Getting others to pay for my home automation
 
