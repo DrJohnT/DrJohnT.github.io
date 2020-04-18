@@ -1,18 +1,14 @@
 ---
 title: Getting others to pay for my home automation
 description: Giving my home a technology refresh
-category: home-automation
+category: Home Automation
 published: 2020-04-18
-order: 1
-theme: jekyll-theme-architect
+layout: default
 ---
 # Getting others to pay for my home automation
 
-A traveller stops to ask a farmer the way to a village. The farmer thinks for a while and then says "If you want to go there I would not start from here."
+> *A traveller stops to ask a farmer the way to a village. The farmer thinks for a while and then says **"If you want to go there, I would not start from here."**
 
 To persue home automation is to go on a journey of discovery.  A journey that cannot be planned, but explored as the land is 
-reveals itself before you.
+reveals itself before you.  Obviously, there is no right or wrong place to start on this journey and anyone that says, *"Oh you should have started with ...."* is just as unhelpful as the farmer in the apocryphal tale.
 
-Obviously, there is no right or wrong place to start on this journey, 
-
-My own 
