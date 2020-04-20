@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 title: Sparks from the Anvil
-description: Dr John's adventures in business intelligence, DevOps and home automation
+description: Dr John's adventures in technology
 collections:
   blog_posts:
     output: true 
