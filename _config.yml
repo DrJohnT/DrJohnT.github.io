@@ -1,6 +1,10 @@
 theme: jekyll-theme-architect
 title: Sparks from the Anvil
+<<<<<<< HEAD
 description: Dr John's adventures in technology
+=======
+description: Dr John's adventures in Technology
+>>>>>>> b6636a0b7eefba4ac971122575534d4a136995bb
 collections:
   blog_posts:
     output: true 
