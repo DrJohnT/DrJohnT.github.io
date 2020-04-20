@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Security with Flowers
-description: Integrating Risco security alarm and Mi Flora
+description: Integrating Risco security alarm and Mi Flora with Home Assistant
 category: Home Automation
 published: 2020-04-18
 ---

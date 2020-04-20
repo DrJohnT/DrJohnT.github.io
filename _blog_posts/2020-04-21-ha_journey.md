@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting others to pay for my home automation
-description: How my home automation journey started 
+description: How my home automation journey began 
 category: Home Automation
 published: 2020-04-21
 ---
@@ -22,15 +22,16 @@ On this road to home automation, I was aghast at the cost of a some ‘gateway�
 In the end, my eBay sales very nearly matched my overall expenditure on home automation equipment (summarised in the table below). Essentially, my apartment has had an entire technology refresh at other people’s expense!
 
 | Category | Quantity |	Total Sales	 | Total Purchases | Difference |
-| --- | ---:| ---:| ---:| ---:|
-| Audio / Visual | 20 | £491.80 | £120.35 | -£371.45 |
-| Heating Control | 9 | £67.10 | £383.41 | £316.31
-| Home Automation Device|32|£133.20|£573.15|£439.95 |
-| Home Automation Hub Kit|5|£49.00|£208.95|£159.95 |
-| Network Infrastructure|8|£39.40|£7.19|-£32.21 |
-| Other|4|£107.99| - |-£107.99 |
-| Velux Window Control|5|£299.00|£226.99|-£72.01 |
-| Grand Total|83|£1,187.49|£1,520.04|£332.55 |
+|:--- | ---:| ---:| ---:| ---:|
+| Audio / Visual | 20 | £491 | £120 | -£371 |
+| Heating Control | 9 | £67 | £383 | £316
+| Home Automation Device|32|£133|£573 | £439  |
+| Home Automation Hub Kit|5|£49 |£208 | £159  |
+| Network Infrastructure|8|£39 |£7 | -£32  |
+| Other|4| £107 | - | -£107  |
+| Velux Window Control|5|£299 |£226 | -£72  |
+| Grand Total|83|£1,187 |£1,520 |£332 |
+
 
 But my home automation journey has not been without its traps, dead ends, diversions, and monsters.    For example, the above table excludes £428 of items returned to Amazon because they were complete rubbish.
 
@@ -41,8 +42,8 @@ I had lived with this hotchpotch world of badly coordinated equipment for two ye
 
 Natively Google Home would only control the Belkin smart plugs and the Logitech Harmony Hub.  However, the Harmony Hub integration was a little pointless as it only allowed the device (TV, Blu-ray etc.) to be switched on or off.  Essentially, at this point Google Assistant was a voice in the wilderness; unable to control anything significant.
 
-| Category|Item|Qty|Own App|Own Remote|Own Website|Google Home |
-| --- | --- | ---:|:---:|:---:|:---:|:---:|
+| Category |Item|Qty|Own App|Own Remote|Own Website|Google Home |
+|:--- |:--- | ---:|:---:|:---:|:---:|:---:|
 | Audio / Visual|Logitech Harmony Hub |1|✔|✔|✘|✔ |
 | Audio / Visual|Logitech Squeezebox Touch |4|✔|✘|✔|✘ |
 | Heating|Salus iT550 Controller|1|✔|✘|✔|✘ |
@@ -78,7 +79,7 @@ SmartThings did have an early win. The Logitech Harmony Hub can integrate with S
 In summary, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home.  Worse, it has this Jekyll and Hyde relationship with two apps: the new SmartThings app had several missing features which meant you had to also install the old SmartThings app as well.  What makes matters worse, both apps are equally badly designed, and the support documentation would often describe how to use the app to achieve your purpose, but it was never clear which of the two apps they meant.  Also, there was no web site to control your home which is odd as SmartThings is an Internet-based system.  The only web site they do have is a badly designed developer focused site which lists your components but not their state.
 
 | Category | Item | Qty | SmartThings | Google Home |
-| --- | --- | ---:|:---:|:---:|
+|:--- |:--- | ---:|:---:|:---:|
 | Audio / Visual | Logitech Harmony Hub Companion | 1 | ✔ | ✔ |
 | Audio / Visual | Logitech Squeezebox Touch | 4 | ✘ | ✘ |
 | Heating | Salus iT550 Controller | 1 | ✘ | ✘ |
@@ -90,6 +91,7 @@ In summary, SmartThings was no better at integrating my existing hotchpotch of e
 | Windows / Blinds | Velux Integra windows | 5 | ✘ | ✘  |
 | Windows / Blinds | Velux Integra blinds | 5 | ✘ | ✘  |
 | Windows / Blinds | Somfy Huna Blinds | 3 | ✘ | ✘ |
+
 
 To integrate the MiLight LED controllers with SmartThings, I purchased the MiLight WiFi Boxer gateway, only to realise when it arrived, I had the same piece of crap in a dark crevice in my attic somewhere. The Boxer had not worked then, and it did not work now, so I returned the new device to Amazon and ordered three Gledopto RFBW Zigbee LED Strip Controllers to replace the MiLight LED controllers.  
 
@@ -164,11 +166,11 @@ However, one outstanding bug bear is that Google Home does not support Tidal as 
 The table below lists all the things I have now integrated with Home Assistant.  A full write up of my final set of integrations can be found on my Home Assistant GitHub repo.
 
 | Category | Item | Qty | Hassio | Google Home |
-| --- | --- | ---:|:---:|:---:|
+|:--- |:--- | ---:|:---:|:---:|
 | Audio / Visual | Logitech Harmony Hub Companion | 3 | ✔ | via HA |
 | Audio / Visual | Google Chromecast Audio | 4 | ✔ | ✔ |
 | Audio / Visual | Google Chromecast Video | 3 | ✔ | ✔ |
-| Heating | Drayton Wiser Heating, Hot Water and TRVs | 1 | ✔ | via HA |
+| Heating | Drayton Wiser Heating, Hot Water and TRVs | 8 | ✔ | via HA |
 | Lights | Gledopto RFBW Zigbee LED Controllers | 3 | ✔ | via HA |
 | Security | Risco Security Alarm | 1 | ✔ | via HA |
 | Sensors | SmartThings motion sensor | 1 | ✔ | via HA |
@@ -181,6 +183,7 @@ The table below lists all the things I have now integrated with Home Assistant. 
 | Windows / Blinds | Velux Integra windows | 5 | ✔ | via HA |
 | Windows / Blinds | Velux Integra blinds | 5 | ✔ | via HA |
 | Windows / Blinds | Somfy Huna Bluetooth blinds | 3 | ✘ | ✘ |
+
 
 Ultimately, Home Assistant has made numerous improvements to the way we live, making our lives easier in many ways. 
 
