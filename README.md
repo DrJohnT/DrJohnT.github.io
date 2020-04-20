@@ -3,10 +3,9 @@
 <h2>{{ cat.name }}</h2>
     {% assign docs = cat.items | sort: 'published' | reverse %}
     {% for doc in docs %}
-        <h3><a href="{{ doc.url }}">{{ doc.title }}</a></h2>
+        <h3><a href="{{ doc.url }}">{{ doc.title }}</a></h3>
         {{ doc.description }}<br/>
         <i>Published: {{ doc.published }}</i>
     {% endfor %}
-</ul>
 {% endfor %}
 
