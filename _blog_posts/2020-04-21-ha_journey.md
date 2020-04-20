@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting others to pay for my home automation
-description: My journey with home automation
+description: How my home automation journey started 
 category: Home Automation
 published: 2020-04-21
 ---
@@ -22,16 +22,15 @@ On this road to home automation, I was aghast at the cost of a some ‘gateway�
 In the end, my eBay sales very nearly matched my overall expenditure on home automation equipment (summarised in the table below). Essentially, my apartment has had an entire technology refresh at other people’s expense!
 
 | Category | Quantity |	Total Sales	 | Total Purchases | Difference |
-| --- | --- | --- | --- | --- |
+| --- | ---:| ---:| ---:| ---:|
 | Audio / Visual | 20 | £491.80 | £120.35 | -£371.45 |
-
-Heating Control	9	£67.10	£383.41	£316.31
-Home Automation Device	32	£133.20	£573.15	£439.95
-Home Automation Hub Kit	5	£49.00	£208.95	£159.95
-Network Infrastructure	8	£39.40	£7.19	-£32.21
-Other	4	£107.99		-£107.99
-Velux Window Control	5	£299.00	£226.99	-£72.01
-Grand Total	83	£1,187.49	£1,520.04	£332.55
+| Heating Control | 9 | £67.10 | £383.41 | £316.31
+| Home Automation Device|32|£133.20|£573.15|£439.95 |
+| Home Automation Hub Kit|5|£49.00|£208.95|£159.95 |
+| Network Infrastructure|8|£39.40|£7.19|-£32.21 |
+| Other|4|£107.99| - |-£107.99 |
+| Velux Window Control|5|£299.00|£226.99|-£72.01 |
+| Grand Total|83|£1,187.49|£1,520.04|£332.55 |
 
 But my home automation journey has not been without its traps, dead ends, diversions, and monsters.    For example, the above table excludes £428 of items returned to Amazon because they were complete rubbish.
 
@@ -42,16 +41,17 @@ I had lived with this hotchpotch world of badly coordinated equipment for two ye
 
 Natively Google Home would only control the Belkin smart plugs and the Logitech Harmony Hub.  However, the Harmony Hub integration was a little pointless as it only allowed the device (TV, Blu-ray etc.) to be switched on or off.  Essentially, at this point Google Assistant was a voice in the wilderness; unable to control anything significant.
 
-Category	Item	Qty	Own App	Own Remote	Own Website	Google Home
-Audio / Visual	Logitech Harmony Hub Companion	1	✔	✔	✘	✔
-Audio / Visual	Logitech Squeezebox Touch	4	✔	✘	✔	✘
-Heating	Salus iT550 Controller	1	✔	✘	✔	✘
-Lights	MiLight LED controllers	3	✔	✔	✘	✘
-Plugs	Belkin smart plugs	3	✔	✘	✘	✔
-Security	Risco Security Alarm	1	✔	✘	✔	✘
-Windows / Blinds	Velux Integra windows	5	✘	✔	✘	✘
-Windows / Blinds	Velux Integra blinds	5	✘	✔	✘	✘
-Windows / Blinds	Somfy Huna Blinds	3	✔	✔	✘	✘
+| Category|Item|Qty|Own App|Own Remote|Own Website|Google Home |
+| --- | --- | ---:|:---:|:---:|:---:|:---:|
+| Audio / Visual|Logitech Harmony Hub |1|✔|✔|✘|✔ |
+| Audio / Visual|Logitech Squeezebox Touch |4|✔|✘|✔|✘ |
+| Heating|Salus iT550 Controller|1|✔|✘|✔|✘ |
+| Lights|MiLight LED controllers|3|✔|✔|✘|✘ |
+| Plugs|Belkin smart plugs|3|✔|✘|✘|✔ |
+| Security|Risco Security Alarm|1|✔|✘|✔|✘ |
+| Windows / Blinds |Velux Integra windows|5|✘|✔|✘|✘ |
+| Windows / Blinds |Velux Integra blinds|5|✘|✔|✘|✘ |
+| Windows / Blinds |Somfy Huna Blinds|3|✔|✔|✘|✘ |
  
 ## Dead-end in Tahoma
 > *Purchased 7th Nov 2019 – Returned after 24 hours*
@@ -59,31 +59,37 @@ Windows / Blinds	Somfy Huna Blinds	3	✔	✔	✘	✘
 I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare, but open IO-HomeControl protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies the home automation space, Somfy claimed great things for their hub.  The reality was a huge, huge disappointment, particularly for the price point: £262!!!!
 
 The web-based used interface is awful. Not exactly designed; more thrown together. First you select your dwelling (house, flat etc.) which sets some dreadful background graphics that a child could draw better. They somehow think putting badly designed icons of your devices on a badly drawn background of a house will make the experience better!
+
 You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed I needed to copy the settings over from the existing Velux remote to the new Tahoma hub.  Given the Velux remote can auto-discover the components, why can’t the Tahoma?  
+
 The Tohoma hub works with Google Assistant.  For example, you can open/close Velux blinds using “Hey Google, open the bedroom blinds”. You can even open Velux windows, but Google Assistant requests a security code to allow you to do that. I have no idea when this was set nor where to change it, so god help you if you don’t know the code!
+
 In summary, the Somfy Tohoma is not so much a home automation hub, more a gateway to control a selection of Somfy or IO- HomeControl devices, but not all of them.  Somfy’s own Huna blinds were not supported either.  I wrote a slamming review of this awful hub on Amazon and returned it within 24 hours!
+
 Somfy Tohoma really is a dead-end product!  A bear trap for the unwary.
 
 ## The SmartThings diversion
 > *Purchase 14th Nov 2019 – Superseded after 1 month – sold after 2 months*
 
 My shiny new SmartThings hub arrived in its pristine box along with a collection of matching smart plugs and sensors.  In great anticipation, I connected it up and paired the Zigbee devices. 
+
 SmartThings did have an early win. The Logitech Harmony Hub can integrate with SmartThings so that it can switch on other devices.  My lounge AV is built around my aging stereo system and the Audiolab amp only has a manual power button.  I got around this by putting the amp on a SmartThings plug and always leaving it switched on.  I then added the plug to the Logitech Harmony Hub automation so that it was switched on with the rest of the devices.  However, external devices are always turned on last by Harmony; you have no ability to change the sequence of events.  As the amp takes 20 seconds to power on, the Harmony hub has already sent the IR command to change the amp’s input before the amp is ready to receive the signal.  The SmartThings / Logitech integration solved some problems but not all.
 
 In summary, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home.  Worse, it has this Jekyll and Hyde relationship with two apps: the new SmartThings app had several missing features which meant you had to also install the old SmartThings app as well.  What makes matters worse, both apps are equally badly designed, and the support documentation would often describe how to use the app to achieve your purpose, but it was never clear which of the two apps they meant.  Also, there was no web site to control your home which is odd as SmartThings is an Internet-based system.  The only web site they do have is a badly designed developer focused site which lists your components but not their state.
 
-Category	Item	Qty	SmartThings	Google Home
-Audio / Visual	Logitech Harmony Hub Companion	1	✔	✔
-Audio / Visual	Logitech Squeezebox Touch	4	✘	✘
-Heating	Salus iT550 Controller	1	✘	✘
-Lights	MiLight LED controllers	3	✘	✘
-Plugs	SmartThings plugs	3	✔	via ST
-Plugs	Belkin smart plugs	3	✔	via ST
-Security	Risco Security Alarm	1	✘	✘
-Sensors	SmartThings motion sensor	1	✔	via ST
-Windows / Blinds	Velux Integra windows	5	✘	✘
-Windows / Blinds	Velux Integra blinds	5	✘	✘
-Windows / Blinds	Somfy Huna Blinds	3	✘	✘
+| Category | Item | Qty | SmartThings | Google Home |
+| --- | --- | ---:|:---:|:---:|
+| Audio / Visual | Logitech Harmony Hub Companion | 1 | ✔ | ✔ |
+| Audio / Visual | Logitech Squeezebox Touch | 4 | ✘ | ✘ |
+| Heating | Salus iT550 Controller | 1 | ✘ | ✘ |
+| Lights | MiLight LED controllers | 3 | ✘ | ✘ |
+| Plugs | SmartThings plugs | 3 | ✔ | via ST |
+| Plugs | Belkin smart plugs | 3 | ✔ | via ST |
+| Security | Risco Security Alarm | 1 | ✘ | ✘ |
+| Sensors | SmartThings motion sensor | 1 | ✔ | via ST  |
+| Windows / Blinds | Velux Integra windows | 5 | ✘ | ✘  |
+| Windows / Blinds | Velux Integra blinds | 5 | ✘ | ✘  |
+| Windows / Blinds | Somfy Huna Blinds | 3 | ✘ | ✘ |
 
 To integrate the MiLight LED controllers with SmartThings, I purchased the MiLight WiFi Boxer gateway, only to realise when it arrived, I had the same piece of crap in a dark crevice in my attic somewhere. The Boxer had not worked then, and it did not work now, so I returned the new device to Amazon and ordered three Gledopto RFBW Zigbee LED Strip Controllers to replace the MiLight LED controllers.  
 
@@ -131,6 +137,7 @@ After the absolute disaster of the Shield, the Conbee II was like meeting the Sa
 As mentioned above, I had hankered after a way to control my Velux Integra roof windows for quite a while.  But I baulked at the idea of spending £180 on the Velux Active gateway that would allow me to control these devices when I already had a set of perfectly adequate remote controls (albeit not integrated with HA).  Then it occurred to me.  Each window came with a Velux KLR200 control pad. One control could control all five windows and five blinds.  So, I only needed to keep one controller as a backup to the gateway.  A quick check on eBay indicated that I could potentially sell each KLR200 for £70 or more.   So, the eBay selling frenzy began.  The redundant SmartThings hub was sold alongside the MiLight controllers and various bits and pieces from my loft. 
 
 The next victim was my old multiroom audio system.  After a few months of running both systems in parallel I found I hardly used Logitech system anymore as streaming Tidal to Chromecast Audio was so, so convenient. So, the Logitech units were sold and my use of Plex expanded to encompass my own music collection. I always had a love/hate relationship with the Logitech Music Server (LMS), so I was very glad to see it go!  Logitech stopped selling the Squeezebox equipment a long time ago, but there was a dedicated following and heavy demand on eBay.  I even managed to sell two broken devices for spare parts.  I later heard from the buyer who had managed to fix them.  Good on him!  
+
 I was often dispatching several items per day, and at the height of the selling frenzy I dispatched 16 items in one day!  
 
 I decided to rationalise my technologies and replaced the Wi-Fi based Belkin devices with Zigbee SmartThings smart plugs.  I know you can get cheaper, but I knew the SmartThings devices were reliable, and I had monies in the eBay bank.  The ridiculous thing is that I got more for selling the five-year-old Belkin smart plugs than I paid for brand-new SmartThings replacements.  Go figure!
@@ -141,6 +148,7 @@ Ultimately the sale of the Velux and Logitech equipment funded much of my home a
 > *Purchased 7th Feb 2020 - Still on the journey*
 
 I had long desired a heating system which could support room by room control.  After looking at buying individual TRVs, I eventually took the plunge for an integrated system controlled by the excellent Drayton Wiser Heat Hub integration for Home Assistant by @Angelo_Santagata and team is available on HACS as the Wiser Heating Component for Home Assistant
+
 I now have room by room heating control which adapts to where we are and what we are doing. A full write up of my use of this integration can be found on my Home Assistant config GitHub repo.
 
 ## Fruitless Bluefruit 
@@ -150,27 +158,29 @@ Given my success to date with home automation with Home Assistant, I really hopi
 
 ## The Assistant joins the journey
 I cannot say that my home automation journey is over.  I still have the pesky Somfy Huna Bluetooth blinds to integrate.  But ultimately my success with Home Assistant has allowed me to enable voice activated control over all the devices in my apartment via Google Assistant.
+
 However, one outstanding bug bear is that Google Home does not support Tidal as a native music provider whereas they do support Spotify, Deezer and their own subscription services YouTube & Google Play Music. So, I cannot simply ask Google Assistant to play something for me from Tidal's vast catalogue. To solve this problem, I am working with Ryan Meek to expand the Plex Assistant to encompass music as well as movies. 
 
 The table below lists all the things I have now integrated with Home Assistant.  A full write up of my final set of integrations can be found on my Home Assistant GitHub repo.
 
-Category	Item	Qty	Hassio	Google Home
-Audio / Visual	Logitech Harmony Hub Companion	3	✔	via HA
-Audio / Visual	Google Chromecast Audio	4	✔	✔
-Audio / Visual	Google Chromecast Video	3	✔	✔
-Heating	Drayton Wiser Heating, Hot Water and TRVs	1	✔	via HA
-Lights	Gledopto RFBW Zigbee LED Controllers	3	✔	via HA
-Security	Risco Security Alarm	1	✔	via HA
-Sensors	SmartThings motion sensor	1	✔	via HA
-Sensors	Xiaomi humidity and temperature	2	✔	via HA
-Sensors	Xiaomi Mi Flora flower sensor	1	✔	via HA
-Switches	SmartThings plugs	7	✔	via HA
-Switches	Sonoff WiFi wall switch	1	✔	via HA
-Switches	Xiaomi Aqara double switch	1	✔	via HA
-Switches	Xiaomi smart button	2	✔	via HA
-Windows / Blinds	Velux Integra windows	5	✔	via HA
-Windows / Blinds	Velux Integra blinds	5	✔	via HA
-Windows / Blinds	Somfy Huna Bluetooth blinds	3	✘	✘
+| Category | Item | Qty | Hassio | Google Home |
+| --- | --- | ---:|:---:|:---:|
+| Audio / Visual | Logitech Harmony Hub Companion | 3 | ✔ | via HA |
+| Audio / Visual | Google Chromecast Audio | 4 | ✔ | ✔ |
+| Audio / Visual | Google Chromecast Video | 3 | ✔ | ✔ |
+| Heating | Drayton Wiser Heating, Hot Water and TRVs | 1 | ✔ | via HA |
+| Lights | Gledopto RFBW Zigbee LED Controllers | 3 | ✔ | via HA |
+| Security | Risco Security Alarm | 1 | ✔ | via HA |
+| Sensors | SmartThings motion sensor | 1 | ✔ | via HA |
+| Sensors | Xiaomi humidity and temperature | 2 | ✔ | via HA |
+| Sensors | Xiaomi Mi Flora flower sensor | 1 | ✔ | via HA |
+| Switches | SmartThings plugs | 7 | ✔ | via HA |
+| Switches | Sonoff WiFi wall switch | 1 | ✔ | via HA |
+| Switches | Xiaomi Aqara double switch | 1 | ✔ | via HA |
+| Switches | Xiaomi smart button | 2 | ✔ | via HA |
+| Windows / Blinds | Velux Integra windows | 5 | ✔ | via HA |
+| Windows / Blinds | Velux Integra blinds | 5 | ✔ | via HA |
+| Windows / Blinds | Somfy Huna Bluetooth blinds | 3 | ✘ | ✘ |
 
 Ultimately, Home Assistant has made numerous improvements to the way we live, making our lives easier in many ways. 
 
