@@ -55,8 +55,7 @@ header h2 {
 
 .inner {
   position: relative;
-  //width: 940px;
-  width: 100%;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -74,10 +73,9 @@ header h2 {
   max-width: 100%;
 }
 
-/*
 aside#sidebar {
   float: right;
-  width: 200px;
+  width: 100px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
@@ -89,7 +87,6 @@ aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
 }
-*/
 
 #downloads {
   margin-bottom: 40px;
