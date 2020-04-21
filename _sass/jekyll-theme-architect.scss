@@ -35,7 +35,7 @@ header h1 {
   width: 640px;
   margin-top: 0;
   margin-bottom: 0.2em;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: normal;
   line-height: 1;
   color: #fff;
@@ -55,7 +55,8 @@ header h2 {
 
 .inner {
   position: relative;
-  width: 940px;
+  //width: 940px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -73,6 +74,7 @@ header h2 {
   max-width: 100%;
 }
 
+/*
 aside#sidebar {
   float: right;
   width: 200px;
@@ -87,6 +89,7 @@ aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
 }
+*/
 
 #downloads {
   margin-bottom: 40px;
