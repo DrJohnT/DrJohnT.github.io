@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 title: Sparks from the Anvil
-description: Dr John's adventures in technology
+description: Curiosity is the spark behind every idea
 collections:
   blog_posts:
     output: true 
