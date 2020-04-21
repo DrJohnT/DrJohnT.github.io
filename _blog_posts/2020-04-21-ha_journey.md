@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Getting others to pay for my home automation
+title: How eBay paid for my home automation
 description: How my home automation journey began 
 category: Home Automation
 published: 2020-04-21
 ---
-# Getting others to pay for my home automation
+# How eBay paid for my home automation
 
 > *“One’s destination is never a place, but a new way of seeing things.”* Quote: Henry Miller
 
@@ -15,7 +15,7 @@ My own journey started with frustration.  Frustration that I had, over the years
 
 Some of the devices worked with IFTTT, so I could at least get a few lights to go on and off on a schedule, but it was hardly impressive stuff.
 
-But I digress from the point of this blog entry: *how I got others to pay for my home automation.*
+But I digress from the point of this blog entry: *how eBay paid for my home automation.*
 
 On this road to home automation, I was aghast at the cost of a some ‘gateway’ products.  I concluded that I could only justify buying the equipment if I sold the old equipment that new devices made redundant.  So, I advertised two items on eBay and was amazed at how quickly they got snapped up.  That started me on a selling frenzy; I would search the loft for old kit I no longer used and sell anything that had now been out evolved by recent purchases.
 
@@ -32,7 +32,7 @@ In the end, my eBay sales very nearly matched my overall expenditure on home aut
 | Velux Window Control|5|£299 |£226 | -£72  |
 | Grand Total|83|£1,187 |£1,520 |£332 |
 
-
+<br/>
 But my home automation journey has not been without its traps, dead ends, diversions, and monsters.    For example, the above table excludes £428 of items returned to Amazon because they were complete rubbish.
 
 ## The Assistant’s voice in the wilderness
@@ -92,7 +92,7 @@ In summary, SmartThings was no better at integrating my existing hotchpotch of e
 | Windows / Blinds | Velux Integra blinds | 5 | ✘ | ✘  |
 | Windows / Blinds | Somfy Huna Blinds | 3 | ✘ | ✘ |
 
-
+<br/>
 To integrate the MiLight LED controllers with SmartThings, I purchased the MiLight WiFi Boxer gateway, only to realise when it arrived, I had the same piece of crap in a dark crevice in my attic somewhere. The Boxer had not worked then, and it did not work now, so I returned the new device to Amazon and ordered three Gledopto RFBW Zigbee LED Strip Controllers to replace the MiLight LED controllers.  
 
 As I work from home a lot, I wanted to be able to control my heating on a room by room basis.  My existing Salus iT550 had a great app and web site by which I could turn the boiler on and off.  It even had a portable battery-operated thermostat so I could move it to the main room I was occupying at the time (e.g. study or lounge).  But to turn off unused rooms, I had to walk around the apartment changing the setting on each radiator. This started to become a pain, especially when I forgot to turn radiators back on and my partner would complain.
@@ -163,7 +163,7 @@ I cannot say that my home automation journey is over.  I still have the pesky So
 
 However, one outstanding bug bear is that Google Home does not support Tidal as a native music provider whereas they do support Spotify, Deezer and their own subscription services YouTube & Google Play Music. So, I cannot simply ask Google Assistant to play something for me from Tidal's vast catalogue. To solve this problem, I am working with Ryan Meek to expand the Plex Assistant to encompass music as well as movies. 
 
-The table below lists all the things I have now integrated with Home Assistant.  A full write up of my final set of integrations can be found on my Home Assistant GitHub repo.
+The table below lists all the things I have now integrated with Home Assistant.  A full write up of my final set of integrations can be found on my [Home Assistant GitHub repo](https://github.com/DrJohnT/HomeAssistantPublicConfig).
 
 | Category | Item | Qty | Hassio | Google Home |
 |:--- |:--- | ---:|:---:|:---:|
@@ -184,7 +184,7 @@ The table below lists all the things I have now integrated with Home Assistant. 
 | Windows / Blinds | Velux Integra blinds | 5 | ✔ | via HA |
 | Windows / Blinds | Somfy Huna Bluetooth blinds | 3 | ✘ | ✘ |
 
-
+<br/>
 Ultimately, Home Assistant has made numerous improvements to the way we live, making our lives easier in many ways. 
 
 > *“Do adventures ever have an end? I suppose not. Someone else always has to carry on the story.”* Quote: JRR Tolkien 
