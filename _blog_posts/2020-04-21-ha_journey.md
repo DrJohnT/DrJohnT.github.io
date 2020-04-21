@@ -232,7 +232,7 @@ SmartThings has this Jekyll and Hyde relationship with two apps: the new app has
 In summary, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home as summarized in the table below.  
 
 
-<table>
+<table class="blueTable">
   <thead>
     <tr>
       <th>Category</th>
@@ -361,12 +361,12 @@ I purchased the [Elelabs Zigbee Raspberry Pi Shield](https://elelabs.com/product
 I got my money back via PayPal refund.  Their support guy emailed me telling me to keep the device in asked if I would check out their new firmware when it became available.  As if!
 
 ## The Conbee Samaritan
-> *Conbee II purchased 25th Jan 2020 - Still on the journey 
+> *Conbee II purchased 25th Jan 2020 - Still on the journey*
 
 After the absolute disaster of the Shield, the Conbee II was like meeting the Samaritan on the road to Damascus.  Within 30 minutes, all my Zigbee devices were on-line and available.  I have to say, deConz has an odd web interface and the Zigbee device map looks impressive but is not at all useful.  Also frustrating is how it categorises some devices as lights when they are switches.  But all these shortcomings are forgivable in a product that just works out of the box.
 
 ## The Active selling frenzy
-> *Velux Active gateway purchased 13th Jan 2020 - Still on the journey 
+> *Velux Active gateway purchased 13th Jan 2020 - Still on the journey*
 
 I had hankered after a way to control my Velux Integra roof windows for quite a while.  But I baulked at the idea of spending £180 on the Velux Active gateway that would allow me to control these devices when I already had a set of perfectly adequate remote controls (albeit not integrated with HA).  Then it occurred to me.  Each window came with a Velux KLR200 control pad. One control could control all five windows and five blinds.  So, I only needed to keep one controller as a backup to the gateway.  A quick check on eBay indicated that I could potentially sell each KLR200 for £70 or more.   So, the eBay selling frenzy began.  The redundant SmartThings hub was sold alongside the MiLight controllers and various bits and pieces from my loft. 
 
