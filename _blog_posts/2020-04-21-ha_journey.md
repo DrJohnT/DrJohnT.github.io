@@ -10,7 +10,7 @@ image: ./assets/images/How-eBay-Paid-for-my-Home-Automation.png
 
 > *“One’s destination is never a place, but a new way of seeing things.”* Quote: Henry Miller
 
-<img align=right  width="360px" hspace=10px alt="Sparks from the Anvil" src="../assets/images/Spark-Light-Bulb.jpeg" >
+<img align="right" width="360px" hspace="10px" alt="Sparks from the Anvil" src="../assets/images/Spark-Light-Bulb.jpeg"/>
 
 To pursue home automation is to go on a journey of discovery. A journey that cannot be planned; but explored as the land reveals itself before you.
 
@@ -107,7 +107,7 @@ My home automation journey has not been without its traps, dead ends, diversions
 ## The Assistant’s voice in the wilderness
 > *Google Nest Mini purchased 26th Oct 2019 – Still on the journey*
 
-<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/google_nest_mini.jpg" >
+<img align="right"  width="200px" hspace="10px" src="/assets/images/HowEBay/google_nest_mini.jpg"/>
 
 I had lived with the hotchpotch world of badly coordinated equipment for two years or so before the acquisition of a Google Nest Mini sparked my interest in home automation.  It was then that I took a fresh look at integrating the various devices I already had and put together an Excel spreadsheet (reproduced below) which listed how they were controlled.
 
