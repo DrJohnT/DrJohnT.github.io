@@ -4,6 +4,7 @@ title: Dr John's Home Assistant Configuration
 description: Published my Home Assistant configuration for the first time
 category: Home Automation
 published: 2020-04-12
+image: DrJohnsHomeAssistantConfiguration.png
 ---
 # Dr John's Home Assistant Configuration
 
