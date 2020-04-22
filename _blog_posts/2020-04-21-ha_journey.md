@@ -4,7 +4,7 @@ title: How eBay paid for my home automation
 description: How eBay paid for my home automation blog post from Sparks from the Anvil by Dr John
 category: Home Automation
 published: 2020-04-22
-image: HoweBayPaidForMyHomeAutomation.png
+image: ./assets/images/HoweBayPaidForMyHomeAutomation.png
 ---
 # How eBay paid for my home automation
 

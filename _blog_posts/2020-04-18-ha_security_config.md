@@ -4,7 +4,7 @@ title: Security with Flowers
 description: Integrating Risco security alarm and Mi Flora with Home Assistant
 category: Home Automation
 published: 2020-04-18
-image: ./images/DrJohnsHomeAssistantConfiguration.png
+image: ./assets/images/DrJohnsHomeAssistantConfiguration.png
 ---
 # Security with Flowers
 
