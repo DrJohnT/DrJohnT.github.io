@@ -1,14 +1,16 @@
 ---
 layout: default
 title: How eBay paid for my home automation
-description: How eBay paid for my home automation blog post from Sparks from the Anvil by Dr John
+description: Dr John's Techology Blog - Sparks from the Anvil
 category: Home Automation
 published: 2020-04-22
-image: ./assets/images/HoweBayPaidForMyHomeAutomation.png
+image: ./assets/images/How-eBay-Paid-for-my-Home-Automation.png
 ---
 # How eBay paid for my home automation
 
 > *“One’s destination is never a place, but a new way of seeing things.”* Quote: Henry Miller
+
+<img align=right  width="360px" hspace=10px alt="Sparks from the Anvil" src="../assets/images/Spark-Light-Bulb.jpeg" >
 
 To pursue home automation is to go on a journey of discovery. A journey that cannot be planned; but explored as the land reveals itself before you.
 
@@ -16,7 +18,7 @@ My own journey started with frustration.  Frustration that I had, over the years
 
 Some of the devices worked with IFTTT, so I could at least get a few lights to go on and off on a schedule, but it was hardly impressive stuff.
 
-But I digress from the point of this blog entry: *How eBay paid for my home automation.*
+But I digress from the point of this blog entry: ***How eBay paid for my home automation.***
 
 On this road to home automation, I was aghast at the cost of a some products, particularly proprietary gateways that provided access to proprietary protocols to control a specific company's products.  In my own mind, such expense seemed like an extravagance, particularly as I posessed perfectly good remote controls or phone apps that already controlled the products.  
 
@@ -104,6 +106,8 @@ My home automation journey has not been without its traps, dead ends, diversions
 
 ## The Assistant’s voice in the wilderness
 > *Google Nest Mini purchased 26th Oct 2019 – Still on the journey*
+
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/google_nest_mini.jpg" >
 
 I had lived with the hotchpotch world of badly coordinated equipment for two years or so before the acquisition of a Google Nest Mini sparked my interest in home automation.  It was then that I took a fresh look at integrating the various devices I already had and put together an Excel spreadsheet (reproduced below) which listed how they were controlled.
 
@@ -209,6 +213,8 @@ Natively, Google Home would only control the Belkin smart plugs and the Logitech
 ## Dead-end in Tahoma
 > *Somfy Tahoma hub purchased 7th Nov 2019 – Returned after 24 hours*
 
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/somfy_tahoma_fail.png" >
+
 I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies the home automation space, Somfy claimed great things for their hub.  The reality was a huge, huge disappointment, particularly for the price point: £262!!!!
 
 The web-based used interface is awful. Not exactly designed; more thrown together. First you select your dwelling (house, flat etc.) which sets some dreadful background graphics that a child could draw better. They somehow think putting badly designed icons of your devices on a badly drawn background of a house will make the experience better!
@@ -223,6 +229,8 @@ Somfy Tohoma really is a dead-end product!  A bear trap in the path of the unwar
 
 ## The SmartThings diversion
 > *SmartThings hub purchase 14th Nov 2019 – Superseded after 1 month – sold after 2 months*
+
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/smartthings_hub_sold.png" >
 
 My shiny new SmartThings hub arrived in its pristine box along with a collection of matching smart plugs and sensors.  In great anticipation, I connected it up and paired the devices. 
 
@@ -333,17 +341,25 @@ As I work from home a lot, I wanted to be able to control my heating on a room b
 Since I already had an internet-controlled thermostat, I started looking for thermostatic radiator valves (TRVs) which I could pair with SmartThings and remotely switch on and off.  
 
 ## The Salus thing
+<img align=left  width="140px" hspace=10px src="../assets/images/HowEBay/salus_trv_fail.png" >
+
 > *Salus TRV purchase 19th Nov 2019 – Returned after 24 hours*
 
 Given I had the [Salus iT550](https://salus-controls.com/uk/product/it500/), I had great hopes for the [TRV10RFM Smart Radiator Control](https://salus-controls.com/uk/product/trv10rfm/).  Although the device paired with SmartThings very easily, it simply appeared as *Thing* in the interface and was totally uncontrollable.  So, the device was returned to Amazon unwanted.
 
+<br>
+
 ## The Meross monster
 > *Meross TRV purchased 10th Dec 2019 - Returned after 24 hours*
+
+<img align=right  width="180px" hspace=10px src="../assets/images/HowEBay/meross_trv_fail.png" >
 
 SmartThings did have a cloud to cloud integration and Meross make a big thing about their devices been controllable via IFTTT.  However, I did notice that not a single word was mentioned on any web site about the Meross TRVs been controllable in the same manner.  So, I contacted Meross product support and they provided a nebulous reply that kind of implied the TRVs were supported.   I did not like the fact the [Meross TRVs](https://www.meross.com/product/30/article/) require their own [Wi-Fi gateway](https://www.meross.com/product/31/article/), but I could live with that if they worked.  Pairing the Meross kit to their own app was easy.  However, when I came to pair SmartThings with Meross using the cloud integration, the Meross turned into a monster, destroying all my SmartThings settings making it forgot all my devices.  This was not cloud integration, it was cloud warfare!   So, the device was returned to Amazon unwanted.  Another note was sent to Meross product support telling them of their product’s failings, but I never got a reply or an apology.
 
 ## The Chromecast insurgency
 > *Google Chromecast Audio x 4 purchase 18th Nov 2019 – Still on the journey*
+
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/google_chromecast_audio.png" >
 
 Years ago, I had invested in a multiroom audio system. I had a Logitech Squeezebox Touch in every room streaming music from a central Logitech Music Server (LMS).  Of course, each Squeezebox Touch needed an amplifier and speakers to work and the LMS needed the server on which to run. The whole set up was reasonably expensive, but in my view far cheaper than the equivalent Sonos system and far more flexible.  The LMS had a range of dedicated tinkers that kept providing extensions for the server such as Spotify and [Tidal](https://www.tidal.com) integration.  The [Netgear ReadyNAS](https://www.netgear.com/business/products/storage/readynas/) server could run not only LMS but also Plex. 
 Spurred on by the announcement that Google had stopped their manufacture, I purchased a couple of [Google Chromecast Audio](https://www.whathifi.com/google/chromecast-audio/review) devices and was amazed to find just how good they were! Firstly, they have a *full dynamic range mode* so that they can drive my stereo system to an acceptable level. Also, to my surprise they have a group mode so that the same music can be streamed to several rooms (i.e. multiroom). 
@@ -351,12 +367,15 @@ Spurred on by the announcement that Google had stopped their manufacture, I purc
 ## The Hassio revolution
 > *Raspberry Pi purchase 14th Dec 2019 – Still on the journey*
 
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/HAlogo.png">
+
 Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed Home Assistant.  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   Home Assistant supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list kept growing by the day.  
 
 Although Home Assistant (HA) had usurped SmartThings crown, at this point I still used SmartThings as my Zigbee and Z-Wave gateway.  However, after a while the HA / SmartThings integration started getting unreliable, often displaying a fleeting message *“Call to the SmartThings server failed”*. I partly blamed this on the Meross Monster, but I did hanker after a non-internet-based solution to my Zigbee communication.
 
 ## The Elelabs shield wall
 > *Elelabs Shield purchase 4th Jan 2020 – Currently collecting dust in the attic*
+<img align=right  width="150px" hspace=10px src="../assets/images/HowEBay/elelabs_shield_fail.png">
 
 I purchased the [Elelabs Zigbee Raspberry Pi Shield](https://elelabs.com/products/elelabs-zigbee-shield.html) to replace SmartThings as a Zigbee hub.  I had presumed it would be plug and play, but the device simply would not work.   I spent night after night screwing around with docker configs, building and rebuilding my machine, but I just could not get it to work.  After many interactions with Elelabs support and some 40 hours (yes 40 hours!!!) of wasted time, I gave up.  Clearly, they call the product shield for a reason: shield wall, a blockage in your path!
 I got my money back via PayPal refund.  Their support guy emailed me telling me to keep the device in asked if I would check out their new firmware when it became available.  As if!
@@ -364,25 +383,31 @@ I got my money back via PayPal refund.  Their support guy emailed me telling me 
 ## The Conbee Samaritan
 > *Conbee II purchased 25th Jan 2020 - Still on the journey*
 
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/conbee2_colours.jfif">
+
 After the absolute disaster of the Shield, the Conbee II was like meeting the Samaritan on the road to Damascus.  Within 30 minutes, all my Zigbee devices were on-line and available.  I have to say, deConz has an odd web interface and the Zigbee device map looks impressive but is not at all useful.  Also frustrating is how it categorises some devices as lights when they are switches.  But all these shortcomings are forgivable in a product that just works out of the box.
 
 ## The Active selling frenzy
 > *Velux Active gateway purchased 13th Jan 2020 - Still on the journey*
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/velux-active-netatmo.jpg">
 
 I had hankered after a way to control my Velux Integra roof windows for quite a while.  But I baulked at the idea of spending £180 on the Velux Active gateway that would allow me to control these devices when I already had a set of perfectly adequate remote controls (albeit not integrated with HA).  Then it occurred to me.  Each window came with a Velux KLR200 control pad. One control could control all five windows and five blinds.  So, I only needed to keep one controller as a backup to the gateway.  A quick check on eBay indicated that I could potentially sell each KLR200 for £70 or more.   So, the eBay selling frenzy began.  The redundant SmartThings hub was sold alongside the MiLight controllers and various bits and pieces from my loft. 
 
 ## Farewell sweet Touch
 > *Logitech Squeezebox Touch x 6 puchased 2011 / 2012  - Sold Feb 2020*
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/logitech_squeezebox_touch_sold.png">
 
 The next victim was my old multiroom audio system.  After a few months of running both systems in parallel I found I hardly used Logitech system anymore; streaming [Tidal](https://tidal.com/) to Chromecast Audio was so, so convenient. Therefore, the Logitech Squeezebox Touch units were all sold and my use of [Plex](https://www.plex.tv) media server expanded to encompass my own music collection. I always had a love/hate relationship with the [Logitech Music Server (LMS)](https://en.wikipedia.org/wiki/Logitech_Media_Server), so I was very glad to see it go!  Logitech stopped selling the Squeezebox equipment a long time ago, but there was a dedicated following and heavy demand on eBay.  I even managed to sell two broken devices for spare parts.  I later heard from the buyer who had managed to fix them.  Good on him!  
 
 ## Goodbye faithful Belkin
 > *Belkin smart plugs x 3 puchased 2015 / 2016 - Sold Feb 2020*
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/wemo_sold.png">
 
 With monies in my eBay bank, I decided to rationalise my technology.  So I replaced the aging Wi-Fi based Belkin devices with SmartThings Zigbee smart plugs.  There are cheaper smart plugs, but I knew the SmartThings devices were reliable as I had three already.  The ridiculous thing is that I got more for selling the five-year-old Belkin smart plugs than I paid for brand-new SmartThings replacements.  Go figure!
 
 ## The Wiser road to a better climate
 > *Drayton Wiser TRVs x 7 purchased 7th Feb 2020 - Still on the journey*
+<img align=right  width="200px" hspace=10px src="../assets/images/HowEBay/wiser_kit2.jpg">
 
 I had long desired a heating system which could support room by room control.  After looking at buying individual TRVs, I eventually took the plunge for an integrated system controlled by the excellent [Drayton Wiser Heat Hub integration for Home Assistant](https://github.com/asantaga/wiserHomeAssistantPlatform) by Angelo Santagata and team is available on HACS as the *Wiser Heating Component for Home Assistant*.
 
@@ -390,10 +415,12 @@ I now have room by room heating control which adapts to where we are and what we
 
 ## Fruitless Bluefruit 
 > *Adafruit Bluefruit LE Sniffer purchased 16th Feb 2020 – Fruitless journey*
+<img align=right  width="140px" hspace=10px src="../assets/images/HowEBay/adafruit.png">
 
 Given my success to date of my home automation journey with Home Assistant, I was really hoping that I could tame the Somfy Huna Bluetooth blinds.  However, the task of reverse engineering the Bluetooth LE commands has so far proved beyond me.  I tried the nRF app from Nordic Telecom plus Wireshark and the Adafruit Bluefruit LE Sniffer for BLE 4.0, but the Bluetooth traffic is so chatty, I cannot isolate the commands that control the blinds.  Ah well, perhaps for another day when I have time on my hands.  Perhaps during a period of lockdown...
 
 ## The Assistant rejoins the journey
+<img align=right  width="180px" hspace=10px src="../assets/images/HowEBay/google_assistant.jpg">
 
 My success with Home Assistant has allowed me to enable voice activated control over all the devices in my apartment via Google Assistant.
 
