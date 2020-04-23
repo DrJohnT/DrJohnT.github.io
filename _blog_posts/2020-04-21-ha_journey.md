@@ -211,17 +211,17 @@ Google Home would only control the Belkin smart plugs and the Logitech Harmony H
   </tbody>
 </table>
  
-## Dead-end in Tahoma
+## Dead-end in TaHomA
 
-> *Somfy Tahoma hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
+> *Somfy TaHomA hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
 
 <img align="right"  width="200px" src="../assets/images/HowEBay/somfy_tahoma_fail.png"/>
 
-I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
+I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy TaHomA hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
 
-The web-based used interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They somehow think putting badly designed icons of your devices on a badly drawn background of a house will improve the experience!
+The web-based used interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They somehow think putting badly designed icons of your devices on a badly drawn background of a house will somehow improve the experience!
 
-You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed that I needed to copy the settings over from my Velux remote control to the new Tahoma hub.  Given the Velux remote can auto-discover the components, why can’t the Tahoma?  
+You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed that I needed to copy the settings over from my Velux remote control to the new TaHomA hub.  Given the Velux remote can auto-discover the components, why can’t the TaHomA?  
 
 The TaHomA hub works with Google Assistant.  For example, you can open/close Velux blinds using *“Hey Google, open the bedroom blinds”*. You can even open Velux windows, but Google Assistant requests a security code to allow you to do that. I have no idea when this was set nor where to change it, so God help you if you don’t know the code!
 
@@ -241,8 +241,7 @@ SmartThings did have an early win. The Logitech Harmony Hub can integrate with S
 
 SmartThings has this Jekyll and Hyde relationship with two apps: the new app has several missing features, so you must install the old SmartThings app as well.  What makes matters worse is that both apps are equally badly designed, and the support documentation would often describe how to use the app to achieve your purpose, but it was never clear which of the two apps they meant.  In addition, there was no web site to control your home which is odd given that SmartThings is a cloud-based system.  The only web site they do have is a badly designed developer focused site which lists your components and their configuration.
 
-In summary, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home as summarized in the table below.  
-
+As showen in the table below, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home.
 
 <table class="blueTable">
   <thead>
@@ -376,7 +375,7 @@ Spurred on by the announcement that Google had stopped their manufacture, I purc
 
 <img align="right" width="200px" src="../assets/images/HowEBay/HAlogo.png"/>
 
-Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed Home Assistant.  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   [Home Assistant](https://www.home-assistant.io/) supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list keeps growing by the day.  
+Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed [Home Assistant](https://www.home-assistant.io/).  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   [Home Assistant](https://www.home-assistant.io/) supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list keeps growing by the day.  
 
 Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped SmartThings crown, at this point I still used SmartThings as my Zigbee and Z-Wave gateway.  However, after a while the HA / SmartThings integration started getting unreliable, often displaying a fleeting message *“Call to the SmartThings server failed”*. I partly blamed this on the Meross Monster, but I did hanker after a non-internet-based solution to my Zigbee communication.
 
@@ -437,9 +436,19 @@ Now, when the alarm is set, lights around the apartment are automatically turned
 
 <img align="right" width="200px" src="../assets/images/HowEBay/wiser_kit2.jpg"/>
 
-I had long desired a heating system which could support room by room control.  After looking at buying individual TRVs, I eventually took the plunge for an integrated system controlled by the excellent [Drayton Wiser Heating Component for Home Assistant](https://github.com/asantaga/wiserHomeAssistantPlatform).
+Like most homes, the heating was either all or nothing. That is, once the boiler is on, then all the radiators get hot regardless.  Obviously thermostatic radiator valves can reduce the temperature in certain rooms, but that does not cater for the following scenarios: 
 
-I now have room by room heating control which adapts to where we are and what we are doing. A full write up of my use of this integration can be found on my [Home Assistant config GitHub repo](https://github.com/DrJohnT/HomeAssistantPublicConfig#central-heating--hot-water).
+<ul>
+<li>When working from home, I want to switch off all the radiators in the rest of the home.</li>
+<li>When my partner is home alone, only the bedroom needs heating, so switch off all the radiators in the rest of the home</li>
+<li>When the family is about, I want the whole home heated</li>
+</ul>
+
+I found that I was constantly walking around the flat turning the radiator valves on and off manually.  Sometimes I would forget and my partner complained she was cold.  Clearly I needed remote controlled thermostatic values on each radiator which would allow me to set the temperature of each room individually.
+
+After looking at buying individual TRVs like the Salus and Meross described above, I eventually took the plunge for an integrated system from [Drayton](https://wiser.draytoncontrols.co.uk/) which is controlled through [Home Assistant](https://www.home-assistant.io/) by the excellent [Wiser Heating Component](https://github.com/asantaga/wiserHomeAssistantPlatform).
+
+I now have room by room heating control which adapts to where we are and what we are doing. 
 
 ## Sweet, sweet Harmony
 
