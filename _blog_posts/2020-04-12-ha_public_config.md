@@ -32,3 +32,6 @@ Below I list the components, how they are used and why.  In each section I try t
     * [Lovelace UI Screenshots](./LovelaceUI.md)
 * [Acknowledgements](https://github.com/DrJohnT/HomeAssistantPublicConfig#Acknowledgements)
 
+<a href="https://github.com/DrJohnT/HomeAssistantPublicConfig">
+<img align="left" src="../assets/images/DrJohnsHomeAssistantConfiguration.png"/>
+</a>
