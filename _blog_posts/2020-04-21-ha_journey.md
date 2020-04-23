@@ -106,7 +106,7 @@ My home automation journey has not been without its traps, dead ends, diversions
 
 ## The Assistant’s voice in the wilderness
 
-> *Google Nest Mini purchased 26th Oct 2019 – Still on the journey*
+> *Google Nest Mini purchased 26<sup>th</sup> Oct 2019 – Still on the journey*
 
 <img align="right"  width="200px" src="../assets/images/HowEBay/google_nest_mini.jpg"/>
 
@@ -213,7 +213,7 @@ Natively, Google Home would only control the Belkin smart plugs and the Logitech
  
 ## Dead-end in Tahoma
 
-> *Somfy Tahoma hub purchased 7th Nov 2019 – Returned after 24 hours*
+> *Somfy Tahoma hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
 
 <img align="right"  width="200px" src="../assets/images/HowEBay/somfy_tahoma_fail.png"/>
 
@@ -231,7 +231,7 @@ Somfy Tohoma really is a dead-end product!  A bear trap in the path of the unwar
 
 ## The SmartThings diversion
 
-> *SmartThings hub purchased 14th Nov 2019 – Superseded after 1 month – sold after 2 months*
+> *SmartThings hub purchased 14<sup>th</sup> Nov 2019 – Superseded after 1 month – sold after 2 months*
 
 <img align="right"  width="200px" src="../assets/images/HowEBay/smartthings_hub_sold.png"/>
 
@@ -345,7 +345,7 @@ Since I already had an internet-controlled thermostat, I started looking for the
 
 ## The Salus thing
 
-> *Salus TRV purchased 19th Nov 2019 – Returned after 24 hours*
+> *Salus TRV purchased 19<sup>th</sup> Nov 2019 – Returned after 24 hours*
 
 <img align="right" height="140px" src="../assets/images/HowEBay/salus_trv_fail.png" >
 
@@ -355,7 +355,7 @@ Given I had the [Salus iT550](https://salus-controls.com/uk/product/it500/), I h
 
 ## The Meross monster
 
-> *Meross TRV purchased 10th Dec 2019 - Returned after 24 hours*
+> *Meross TRV purchased 10<sup>th</sup> Dec 2019 - Returned after 24 hours*
 
 <img align="right" height="140px" src="../assets/images/HowEBay/meross_trv_fail.png"/>
 
@@ -363,7 +363,7 @@ SmartThings did have a cloud to cloud integration and Meross make a big thing ab
 
 ## The Chromecast insurgency
 
-> *Google Chromecast Audio x 4 purchased 18th Nov 2019 – Still on the journey*
+> *Google Chromecast Audio x 4 purchased 18<sup>th</sup> Nov 2019 – Still on the journey*
 
 <img align="right" width="200px" src="../assets/images/HowEBay/google_chromecast_audio.png"/>
 
@@ -372,7 +372,7 @@ Spurred on by the announcement that Google had stopped their manufacture, I purc
 
 ## Home revolution 
 
-> *Raspberry Pi to run Home Assistant purchased 14th Dec 2019 – Still on the journey*
+> *Raspberry Pi to run Home Assistant purchased 14<sup>th</sup> Dec 2019 – Still on the journey*
 
 <img align="right" width="200px" src="../assets/images/HowEBay/HAlogo.png"/>
 
@@ -382,7 +382,7 @@ Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped Smart
 
 ## The Elelabs shield wall
 
-> *Elelabs Shield purchased 4th Jan 2020 – Currently collecting dust in the attic*
+> *Elelabs Shield purchased 4<sup>th</sup> Jan 2020 – Currently collecting dust in the attic*
 
 <img align="right" height="130px" src="../assets/images/HowEBay/elelabs_shield_fail.png"/>
 
@@ -391,7 +391,7 @@ I got my money back via PayPal refund.  Their support guy emailed me telling me 
 
 ## The Conbee Samaritan
 
-> *Conbee II purchased 25th Jan 2020 - Still on the journey*
+> *Conbee II purchased 25<sup>th</sup> Jan 2020 - Still on the journey*
 
 <img align="right" width="180px" src="../assets/images/HowEBay/conbee2_colours.jfif"/>
 
@@ -399,7 +399,7 @@ After the absolute disaster of the Shield, the Conbee II was like meeting the Sa
 
 ## The Active selling frenzy
 
-> *Velux Active gateway purchased 13th Jan 2020 - Still on the journey*
+> *Velux Active gateway purchased 13<sup>th</sup> Jan 2020 - Still on the journey*
 
 <img align="right" width="160px" src="../assets/images/HowEBay/velux-active-netatmo.jpg"/>
 
@@ -433,7 +433,7 @@ Now, when the alarm is set, lights around the apartment are automatically turned
 
 ## The Wiser road to a better climate
 
-> *Drayton Wiser TRVs x 7 purchased 7th Feb 2020 - Still on the journey*
+> *Drayton Wiser TRVs x 7 purchased 7<sup>th</sup> Feb 2020 - Still on the journey*
 
 <img align="right" width="200px" src="../assets/images/HowEBay/wiser_kit2.jpg"/>
 
@@ -461,21 +461,35 @@ The result is that a collection of new and aging equipment works together flawle
 
 <img align="right" width="180px" src="../assets/images/HowEBay/xiaomi-aqara-temperature-and-humidity-sensor.jpg"/> 
 
-The fan used go on and off with the light switch. This was particularly annoying as the fan is noisy, especially at night. Often, we would disable the fan with the tri-pole switch, but this meant people had to proactively remember to flick on the switch before having a shower - which they never did! Also, after having a shower, the fan goes off with the light switch, thus leaving behind a steamy bathroom.
+The bathroom fan used go on and off with the light switch. This was particularly annoying as the fan is noisy, especially at night. Often, we would disable the fan with the tri-pole switch, but this meant people had to proactively remember to flick on the switch before having a shower - which they never did! Also, after having a shower, the fan goes off with the light switch, thus leaving behind a steamy bathroom.
 
-Now [Home Assistant](https://www.home-assistant.io/) switches on the bathroom fan when the humidity goes over 75% and off again when it drops below this point. The result is that the fan only comes on when it is needed. No more, no less. No more noisy fans or steamy bathrooms!
+So I replaced the tri-pole switch with a [Sonoff](https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series) and put a tiny [Xiaomi Aqara temperature and humidity sensor](https://xiaomi-mi.com/sockets-and-sensors/aqara-temperature-and-humidity-sensor/) in the bathroom.  Now [Home Assistant](https://www.home-assistant.io/) switches on the bathroom fan when the humidity goes over 75% and off again when it drops below this point. The result is that the fan only comes on when it is needed. No more, no less. No more noisy fans or steamy bathrooms!
 
 ## Fruitless Bluefruit 
 
-> *Adafruit Bluefruit LE Sniffer purchased 16th Feb 2020 – Fruitless journey*
+> *Adafruit Bluefruit LE Sniffer purchased 16<sup>th</sup> Feb 2020 – Fruitless journey*
 
 <img align="right" height="120px" src="../assets/images/HowEBay/adafruit.png"/>
 
 Given my success to date of my home automation journey with [Home Assistant](https://www.home-assistant.io/) , I was really hoping that I could tame the Somfy Huna Bluetooth blinds.  However, the task of reverse engineering the Bluetooth LE commands has so far proved beyond me.  I tried the nRF app from Nordic Telecom plus Wireshark and the Adafruit Bluefruit LE Sniffer for BLE 4.0, but the Bluetooth traffic is so chatty, I cannot isolate the commands that control the blinds.  Ah well, perhaps for another day when I have time on my hands.  Perhaps during a period of lockdown...
 
-## The Assistant re-joins the journey
+## What's the WAF?
 
-> Journey's end?
+> *Xiaomi Aqara double wall switch purchased 20<sup>th</sup> March 2020 - Still on the journey*
+
+<img align="right" height="160px" src="../assets/images/HowEBay/xiaomi-aqara-wall-switch.jpg"/>
+
+Many in the home automation community talk about WAF, the *Wife Acceptance Factor*.  Well by far my partner's favourite addition to the apartment is the [Xiaomi Aqara double wall switch](https://xiaomi-mi.com/sockets-and-sensors/remote-switch-for-aqara-smart-light-wall-switch-double-key/) which I have configured to performs several actions:
+* Left hand switch:
+    * Single click - switches the hall LED strip lights on/off (WHITE)
+    * Double click - switches the hall LED strip lights on/off (RED)
+    * Long press - switches on/off the central heating and the Google Mini announces the status: *The central heating has now been turned ON*
+* Right hand switch:
+    * Single click - switches the lounge LED strip lights on/off (WHITE)
+    * Double click - switches the lounge LED strip lights on/off (RED)
+    * Long press - switches on/off the hot water and the Google Mini announces the status: *The hot water has now been turned ON*
+
+## The Assistant re-joins the journey
 
 <img align="right" width="160px" src="../assets/images/HowEBay/google_assistant.jpg"/>
 
@@ -614,9 +628,12 @@ The table below lists all the things I have now integrated with Home Assistant.
   </tbody>
 </table>
 <br>
-I cannot say that my home automation journey is over.  As *JRR Tolkien* put it:
 
-> *“Do adventures ever have an end? I suppose not. Someone else always has to carry on the story.”* 
+## Journey's end?
+
+> *“Do adventures ever have an end? I suppose not. Someone else always has to carry on the story.”*  Quote: JRR Tolkien
+
+I cannot say that my home automation journey is over. I have several territories still to conquer, so new adventures do await...
 
  If you would like to know more about how I used [Home Assistant for Home Automation](https://github.com/DrJohnT/HomeAssistantPublicConfig) click the image below.
 
@@ -628,5 +645,5 @@ I cannot say that my home automation journey is over.  As *JRR Tolkien* put it:
 </p>
 
 ### Trademark Legal Notice
-<small>This repo is not created, developed, affiliated, supported, maintained or endorsed by Home Assistant. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. All company, product, and service names used in this repo are for identification purposes only. Use of these names, logos, trademarks, and brands does not imply endorsement.</small>
+<small>This blog is not created, developed, affiliated, supported, maintained or endorsed by Home Assistant. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. All company, product, and service names used in this repo are for identification purposes only. Use of these names, logos, trademarks, and brands does not imply endorsement.</small>
 
