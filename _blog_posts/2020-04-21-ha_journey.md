@@ -211,23 +211,23 @@ Google Home would only control the Belkin smart plugs and the Logitech Harmony H
   </tbody>
 </table>
  
-## Dead-end in TaHomA
+## Dead-end in Tahoma
 
-> *Somfy TaHomA hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
+> *Somfy Tahoma hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
 
-<img align="right"  width="200px" src="../assets/images/HowEBay/somfy_tahoma_fail.png"/>
+<img align="right"  width="200px" src="../assets/images/HowEBay/somfy_Tahoma_fail.png"/>
 
-I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy TaHomA hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
+I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
 
-The web-based used interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They somehow think putting badly designed icons of your devices on a badly drawn background of a house will somehow improve the experience!
+The web-based used interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They seem to think putting badly designed icons of your devices on a badly drawn background of a house will somehow improve the experience!
 
-You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed that I needed to copy the settings over from my Velux remote control to the new TaHomA hub.  Given the Velux remote can auto-discover the components, why can’t the TaHomA?  
+You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed that I needed to copy the settings over from my Velux remote control to the new Tahoma hub.  Given the Velux remote can auto-discover the components, why can’t the Tahoma?  
 
-The TaHomA hub works with Google Assistant.  For example, you can open/close Velux blinds using *“Hey Google, open the bedroom blinds”*. You can even open Velux windows, but Google Assistant requests a security code to allow you to do that. I have no idea when this was set nor where to change it, so God help you if you don’t know the code!
+The Tahoma hub works with Google Assistant.  For example, you can open/close Velux blinds using *“Hey Google, open the bedroom blinds”*. You can even open Velux windows, but Google Assistant requests a security code to allow you to do that. I have no idea when this was set nor where to change it, so God help you if you don’t know the code!
 
-In summary, the Somfy TaHomA is not so much a home automation hub, more a gateway to control a selection of Somfy or [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) devices, but not all of them.  Somfy’s own Huna blinds were not supported either.  I wrote a [slamming review of this awful hub on Amazon](https://github.com/DrJohnT/HomeAssistantPublicConfig/wiki/Somfy-TaHomA-Review) and returned it within 24 hours!
+In summary, the Somfy Tahoma is not so much a home automation hub, more a gateway to control a selection of Somfy or [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) devices, but not all of them.  Somfy’s own Huna blinds were not supported either.  I wrote a [slamming review of this awful hub on Amazon](https://github.com/DrJohnT/HomeAssistantPublicConfig/wiki/Somfy-Tahoma-Review) and returned it within 24 hours!
 
-Somfy TaHomA really is a dead-end product!  A bear trap in the path of the unwary.
+Somfy Tahoma really is a dead-end product!  A bear trap in the path of the unwary.
 
 ## The SmartThings diversion
 
