@@ -215,7 +215,7 @@ Google Home would only control the Belkin smart plugs and the Logitech Harmony H
 
 > *Somfy Tahoma hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
 
-<img align="right"  width="200px" src="../assets/images/HowEBay/somfy_Tahoma_fail.png"/>
+<img align="right"  width="200px" src="../assets/images/HowEBay/somfy_tahoma_fail.png"/>
 
 I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
 
@@ -647,7 +647,7 @@ I cannot say that my home automation journey is over. I have several territories
 If you would like to know exactly how I use [Home Assistant for Home Automation click this link](https://github.com/DrJohnT/HomeAssistantPublicConfig).
 
 ## Comment on this blog post
-<div class="fb-comments" data-href="https://drjohnt.github.io/blog_posts/2020-04-21-ha_journey.html" data-numposts="7" data-width="600" data-order-by="reverse_time"></div>
+<div class="fb-comments" data-href="https://drjohnt.github.io/blog_posts/2020-04-21-ha_journey.html" data-numposts="7" data-width="640" data-order-by="reverse_time"></div>
 
 <p> &nbsp;</p>
           
