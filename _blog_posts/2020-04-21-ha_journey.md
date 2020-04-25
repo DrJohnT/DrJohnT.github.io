@@ -644,15 +644,7 @@ The table below lists all the things I have now integrated with Home Assistant.
 
 I cannot say that my home automation journey is over. I have several territories still to conquer, so new adventures do await...
 
- If you would like to know more about how I used [Home Assistant for Home Automation](https://github.com/DrJohnT/HomeAssistantPublicConfig) click the image below.
+If you would like to know exactly how I use [Home Assistant for Home Automation click this link](https://github.com/DrJohnT/HomeAssistantPublicConfig).
 
-<a href="https://github.com/DrJohnT/HomeAssistantPublicConfig">
-<img align="left" src="../assets/images/DrJohnsHomeAssistantConfiguration.png"/>
-</a>
-<p>
-&nbsp;
-</p>
 
-### Trademark Legal Notice
-<small>This blog is not created, developed, affiliated, supported, maintained or endorsed by Home Assistant. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. All company, product, and service names used in this repo are for identification purposes only. Use of these names, logos, trademarks, and brands does not imply endorsement.</small>
 
