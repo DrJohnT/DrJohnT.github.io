@@ -646,5 +646,11 @@ I cannot say that my home automation journey is over. I have several territories
 
 If you would like to know exactly how I use [Home Assistant for Home Automation click this link](https://github.com/DrJohnT/HomeAssistantPublicConfig).
 
+## Comment on this blog post
+<div class="fb-comments" data-href="https://drjohnt.github.io/blog_posts/2020-04-21-ha_journey.html" data-numposts="7" data-width="600" data-order-by="reverse_time"></div>
 
+<p> &nbsp;</p>
+          
+### Trademark Legal Notice
+<small>This blog is not created, developed, affiliated, supported, maintained or endorsed by Home Assistant. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. All company, product, and service names used in this repo are for identification purposes only. Use of these names, logos, trademarks, and brands does not imply endorsement.</small>
 
