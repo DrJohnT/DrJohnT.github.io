@@ -12,7 +12,7 @@ image: ./assets/images/How-eBay-Paid-for-my-Home-Automation.png
 
 <img align="right" width="320px" alt="Sparks from the Anvil" src="../assets/images/HowEBay/Spark-Light-Bulb_border.jpeg"/>
 
-To pursue home automation is to go on a journey of discovery. A journey that cannot be planned; but explored as the land reveals itself before you.
+To pursue home automation is to go on a journey of discovery. A journey that cannot be planned, but explored as the land reveals itself before you.
 
 My own journey started with frustration.  Frustration that I had, over the years, purchased an odd collection of components which could be controlled remotely through their own app or by their own proprietary remote control, but not work together in any consistent way. Each device came with its own bug-ridden app, which worked entirely differently to any other app. They were all built around some kind of *standard*, but none of those *standards*  worked together.  Very, very frustrating!
 
@@ -20,7 +20,7 @@ Some of the devices worked with IFTTT, so I could at least get a few lights to g
 
 But I digress from the point of this blog entry: ***How eBay paid for my home automation.***
 
-On this road to home automation, I was aghast at the cost of a some products, particularly proprietary gateways that provided access to proprietary protocols to control a specific company's products.  In my own mind, such expense seemed like an extravagance, particularly as I posessed perfectly good remote controls or phone apps that already controlled the products.  
+On this road to home automation, I was aghast at the cost of some products, particularly proprietary gateways that provided access to proprietary protocols to control a specific company's products.  In my own mind, such expense seemed like an extravagance, particularly as I possessed perfectly good remote controls or phone apps that already controlled the products.  
 
 However, one such gateway made the remote controllers that were supplied with the product redundant.  So, I advertised two of them on eBay and was amazed at how quickly they got snapped up.  That started me on a selling frenzy;  I would sell anything that had become redundant.  I would search the loft for old kit I had not used in years and advertise it on eBay.  I even sold an old Sony radio with a proprietary Apple iPhone 3 charger on the front (yes THAT old!!!).  People it seems, will buy anything that is well advertised. 
 I even started buying things advertised badly and selling them again for a profit. 
@@ -112,7 +112,7 @@ My home automation journey has not been without its traps, dead ends, diversions
 
 I had lived with the hotchpotch world of badly coordinated equipment for two years or so before the acquisition of a Google Nest Mini sparked my interest in home automation.  It was then that I took a fresh look at integrating the various devices I already had and put together an Excel spreadsheet (reproduced below) which listed how they were controlled.
 
-Natively, Google Home would only control the Belkin smart plugs and the Logitech Harmony Hub.  However, the Harmony Hub integration was a little pointless as it only allowed the device (TV, Blu-ray etc.) to be switched on or off.  Essentially, at this point Google Assistant was a voice in the wilderness; unable to control anything of significance.
+Google Home would only control the Belkin smart plugs and the Logitech Harmony Hub.  However, the Harmony Hub integration was a little pointless as it only allowed the device (TV, Blu-ray etc.) to be switched on or off.  Essentially, at this point Google Assistant was a voice in the wilderness; unable to control anything of significance.
 
 <table class="blueTable">
   <thead>
@@ -215,19 +215,19 @@ Natively, Google Home would only control the Belkin smart plugs and the Logitech
 
 > *Somfy Tahoma hub purchased 7<sup>th</sup> Nov 2019 – Returned after 24 hours*
 
-<img align="right"  width="200px" src="../assets/images/HowEBay/somfy_tahoma_fail.png"/>
+<img align="right"  width="200px" src="../assets/images/HowEBay/somfy_Tahoma_fail.png"/>
 
-I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies the home automation space, Somfy claimed great things for their hub.  The reality was a huge, huge disappointment, particularly for the price point: £262!!!!
+I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
 
-The web-based used interface is awful. Not exactly designed; more thrown together. First you select your dwelling (house, flat etc.) which sets some dreadful background graphics that a child could draw better. They somehow think putting badly designed icons of your devices on a badly drawn background of a house will make the experience better!
+The web-based used interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They seem to think putting badly designed icons of your devices on a badly drawn background of a house will somehow improve the experience!
 
 You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed that I needed to copy the settings over from my Velux remote control to the new Tahoma hub.  Given the Velux remote can auto-discover the components, why can’t the Tahoma?  
 
-The Tohoma hub works with Google Assistant.  For example, you can open/close Velux blinds using *“Hey Google, open the bedroom blinds”*. You can even open Velux windows, but Google Assistant requests a security code to allow you to do that. I have no idea when this was set nor where to change it, so god help you if you don’t know the code!
+The Tahoma hub works with Google Assistant.  For example, you can open/close Velux blinds using *“Hey Google, open the bedroom blinds”*. You can even open Velux windows, but Google Assistant requests a security code to allow you to do that. I have no idea when this was set nor where to change it, so God help you if you don’t know the code!
 
-In summary, the Somfy Tohoma is not so much a home automation hub, more a gateway to control a selection of Somfy or IO- HomeControl devices, but not all of them.  Somfy’s own Huna blinds were not supported either.  I wrote a [slamming review of this awful hub on Amazon](https://github.com/DrJohnT/HomeAssistantPublicConfig/wiki/Somfy-Tohoma-Review) and returned it within 24 hours!
+In summary, the Somfy Tahoma is not so much a home automation hub, more a gateway to control a selection of Somfy or [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) devices, but not all of them.  Somfy’s own Huna blinds were not supported either.  I wrote a [slamming review of this awful hub on Amazon](https://github.com/DrJohnT/HomeAssistantPublicConfig/wiki/Somfy-Tahoma-Review) and returned it within 24 hours!
 
-Somfy Tohoma really is a dead-end product!  A bear trap in the path of the unwary.
+Somfy Tahoma really is a dead-end product!  A bear trap in the path of the unwary.
 
 ## The SmartThings diversion
 
@@ -237,12 +237,11 @@ Somfy Tohoma really is a dead-end product!  A bear trap in the path of the unwar
 
 My shiny new SmartThings hub arrived in its pristine box along with a collection of matching smart plugs and sensors.  In great anticipation, I connected it up and paired the devices. 
 
-SmartThings did have an early win. The Logitech Harmony Hub can integrate with SmartThings so it can control lights and switches.  My lounge AV is built around my aging stereo system and the Audiolab amp only has a manual power button.  I got around this by putting the amp on a SmartThings plug and always leaving it switched on.  I then added the plug to the Logitech Harmony Hub automation so that it was switched on with the rest of the devices.  However, external devices are always turned on last by Harmony; you have no ability to change the sequence of events.  As the amp takes 20 seconds to power on, the Harmony hub has already sent the IR command to change the amp’s input before the amp is ready to receive the signal.  The SmartThings / Logitech integration solved some problems but not all.
+SmartThings did have an early win. The Logitech Harmony Hub can integrate with SmartThings so it can control lights and switches.  My lounge AV is built around my aging stereo system and the Audiolab amp only has a manual power button.  I got around this by putting the amp on a SmartThings plug and always leaving it switched on.  I then added the plug to the Logitech Harmony Hub automation so that it was switched on with the rest of the devices.  However, external devices are always turned on last by Harmony as you don't control the sequence of events.  As the amp takes 20 seconds to power on, the Harmony hub has already sent the IR command to change the amp’s input before the amp is ready to receive the signal.  The SmartThings / Logitech integration solved some problems but not all.
 
-SmartThings has this Jekyll and Hyde relationship with two apps: the new app has several missing features, so you must install the old SmartThings app as well.  What makes matters worse, both apps are equally badly designed, and the support documentation would often describe how to use the app to achieve your purpose, but it was never clear which of the two apps they meant.  Also, there was no web site to control your home which is odd given that SmartThings is a cloud-based system.  The only web site they do have is a badly designed developer focused site which lists your components and their configuration.
+SmartThings has this Jekyll and Hyde relationship with two apps: the new app has several missing features, so you must install the old SmartThings app as well.  What makes matters worse is that both apps are equally badly designed, and the support documentation would often describe how to use the app to achieve your purpose, but it was never clear which of the two apps they meant.  In addition, there was no web site to control your home which is odd given that SmartThings is a cloud-based system.  The only web site they do have is a badly designed developer focused site which lists your components and their configuration.
 
-In summary, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home as summarized in the table below.  
-
+As showen in the table below, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home.
 
 <table class="blueTable">
   <thead>
@@ -337,9 +336,9 @@ In summary, SmartThings was no better at integrating my existing hotchpotch of e
 
 <br/>
 
-To integrate the MiLight LED controllers with SmartThings, I purchased the [MiLight WiFi Boxer gateway](https://www.milight.com/milight-wifi-box/), only to realise when it arrived, I had the same piece of crap in a dark crevice in my attic somewhere. The Boxer had not worked then, and it did not work now, so I returned the new device to Amazon and ordered three [Gledopto RGBW Zigbee LED Strip Controllers](https://www.gledopto.eu/) to replace the MiLight LED controllers.  
+To integrate the MiLight LED controllers with SmartThings, I purchased the [MiLight WiFi Boxer gateway](https://www.milight.com/milight-wifi-box/), only to realise when it arrived that I had the same piece of crap in a dark crevice in my attic somewhere. The Boxer had not worked then, and it did not work now, so I returned the new device to Amazon and ordered three [Gledopto RGBW Zigbee LED Strip Controllers](https://www.gledopto.eu/) to replace the MiLight LED controllers.  
 
-As I work from home a lot, I wanted to be able to control my heating on a room by room basis.  My existing [Salus iT550](https://salus-controls.com/uk/product/it500/)  had a great app and web site by which I could turn the boiler on and off.  It even had a portable battery-operated thermostat so I could move it to the main room I was occupying at the time (e.g. study or lounge).  But to turn off unused rooms, I had to walk around the apartment changing the setting on each radiator. This started to become a pain, especially when I forgot to turn radiators back on and my partner would complain.
+As I work from home a lot, I wanted to be able to control my heating on a room by room basis.  My existing [Salus iT550](https://salus-controls.com/uk/product/it500/)  had a great app and web site by which I could turn the boiler on and off.  It even had a portable battery-operated thermostat so I could move it to the main room I was occupying at the time (e.g. study or lounge).  But to turn off unused rooms, I had to walk around the apartment changing the setting on each radiator. This started to become a pain, especially when I forgot to turn radiators back on and my partner would complain about the cold temperature in that room.
 
 Since I already had an internet-controlled thermostat, I started looking for thermostatic radiator valves (TRVs) which I could pair with SmartThings and remotely switch on and off.  
 
@@ -376,7 +375,7 @@ Spurred on by the announcement that Google had stopped their manufacture, I purc
 
 <img align="right" width="200px" src="../assets/images/HowEBay/HAlogo.png"/>
 
-Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed Home Assistant.  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   [Home Assistant](https://www.home-assistant.io/) supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list kept growing by the day.  
+Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed [Home Assistant](https://www.home-assistant.io/).  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   [Home Assistant](https://www.home-assistant.io/) supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list keeps growing by the day.  
 
 Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped SmartThings crown, at this point I still used SmartThings as my Zigbee and Z-Wave gateway.  However, after a while the HA / SmartThings integration started getting unreliable, often displaying a fleeting message *“Call to the SmartThings server failed”*. I partly blamed this on the Meross Monster, but I did hanker after a non-internet-based solution to my Zigbee communication.
 
@@ -387,7 +386,7 @@ Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped Smart
 <img align="right" height="130px" src="../assets/images/HowEBay/elelabs_shield_fail.png"/>
 
 I purchased the [Elelabs Zigbee Raspberry Pi Shield](https://elelabs.com/products/elelabs-zigbee-shield.html) to replace SmartThings as a Zigbee hub.  I had presumed it would be plug and play, but the device simply would not work.   I spent night after night screwing around with docker configs, building and rebuilding my machine, but I just could not get it to work.  After many interactions with Elelabs support and some 40 hours (yes 40 hours!!!) of wasted time, I gave up.  Clearly, they call the product shield for a reason: shield wall, a blockage in your path!
-I got my money back via PayPal refund.  Their support guy emailed me telling me to keep the device in asked if I would check out their new firmware when it became available.  As if!
+I got my money back via PayPal refund.  Their support guy emailed me telling me to keep the device and asked if I would check out their new firmware when it became available.  As if!
 
 ## The Conbee Samaritan
 
@@ -437,9 +436,19 @@ Now, when the alarm is set, lights around the apartment are automatically turned
 
 <img align="right" width="200px" src="../assets/images/HowEBay/wiser_kit2.jpg"/>
 
-I had long desired a heating system which could support room by room control.  After looking at buying individual TRVs, I eventually took the plunge for an integrated system controlled by the excellent [Drayton Wiser Heating Component for Home Assistant](https://github.com/asantaga/wiserHomeAssistantPlatform).
+Like most homes, the heating was either all or nothing. That is, once the boiler is on, then all the radiators get hot regardless.  Obviously thermostatic radiator valves can reduce the temperature in certain rooms, but that does not cater for the following scenarios: 
 
-I now have room by room heating control which adapts to where we are and what we are doing. A full write up of my use of this integration can be found on my [Home Assistant config GitHub repo](https://github.com/DrJohnT/HomeAssistantPublicConfig#central-heating--hot-water).
+<ul>
+<li>When working from home, I want to switch off all the radiators in the rest of the home.</li>
+<li>When my partner is home alone, only the bedroom needs heating, so switch off all the radiators in the rest of the home</li>
+<li>When the family is about, I want the whole home heated</li>
+</ul>
+
+I found that I was constantly walking around the flat turning the radiator valves on and off manually.  Sometimes I would forget and my partner complained she was cold.  Clearly I needed remote controlled thermostatic values on each radiator which would allow me to set the temperature of each room individually.
+
+After looking at buying individual TRVs like the Salus and Meross described above, I eventually took the plunge for an integrated system from [Drayton](https://wiser.draytoncontrols.co.uk/) which is controlled through [Home Assistant](https://www.home-assistant.io/) by the excellent [Wiser Heating Component](https://github.com/asantaga/wiserHomeAssistantPlatform).
+
+I now have room by room heating control which adapts to where we are and what we are doing. 
 
 ## Sweet, sweet Harmony
 
@@ -447,7 +456,7 @@ I now have room by room heating control which adapts to where we are and what we
 
 <img align="right" width="160px" src="../assets/images/HowEBay/harmony-companion-remote-hub.png" /> 
 
-My lounge AV is built around my aging stereo system.  Although the [Audiolab](https://www.audiolab.co.uk/) amplifiers do have a remote control, they only have a manual power button.  The [Logitech Harmony Hub Companion](https://www.logitech.com/en-gb/product/harmony-hub) was a godsend, but it only solved some of the problems.  Obviously, it did not power on the [Audiolab](https://www.audiolab.co.uk/) units, but worse did not change the TV input correctly when changing source.  This is particularly annoying as the Harmony Hub does know how to send a IR command to select a particular input on the TV, but does not allow you to select it in their app.
+My lounge AV is built around my aging stereo system.  Although the [Audiolab](https://www.audiolab.co.uk/) amplifiers do have a remote control, they only have a manual power button.  The [Logitech Harmony Hub Companion](https://www.logitech.com/en-gb/product/harmony-hub) was a Godsend, but it only solved some of the problems.  Obviously, it did not power on the [Audiolab](https://www.audiolab.co.uk/) units, but worse did not change the TV input correctly when changing source.  This is particularly annoying as the Harmony Hub does know how to send a IR command to select a particular input on the TV, but does not allow you to select it in their app.
 
 [Home Assistant](https://www.home-assistant.io/) automations allowed me to solve all the outstanding issues with the Harmony Hub.  I set up automations for each state change event that needed an input change.  For example, when changing from watching a Blu-ray disk to watching the Freesat PVR needs a different HDMI port to be selected. An automation would detect the change and have the Harmony Hub send the correct IR sequence.  Some automations required a delay while the peripheral warmed up.  For example, the TV takes approximately 10 seconds to switch on, so I had to delay the HDMI port change request until it was ready.  This I did by simply sending the same request multiple times, after a few second delay. 
 
@@ -479,7 +488,7 @@ Given my success to date of my home automation journey with [Home Assistant](htt
 
 <img align="right" height="160px" src="../assets/images/HowEBay/xiaomi-aqara-wall-switch.jpg"/>
 
-Many in the home automation community talk about WAF, the *Wife Acceptance Factor*.  Well by far my partner's favourite addition to the apartment is the [Xiaomi Aqara double wall switch](https://xiaomi-mi.com/sockets-and-sensors/remote-switch-for-aqara-smart-light-wall-switch-double-key/) which I have configured to performs several actions:
+Many in the home automation community talk about WAF, the *Wife Acceptance Factor*.  Well, by far my partner's favourite addition to the apartment is the [Xiaomi Aqara double wall switch](https://xiaomi-mi.com/sockets-and-sensors/remote-switch-for-aqara-smart-light-wall-switch-double-key/) which I have configured to performs several actions:
 * Left hand switch:
     * Single click - switches the hall LED strip lights on/off (WHITE)
     * Double click - switches the hall LED strip lights on/off (RED)
