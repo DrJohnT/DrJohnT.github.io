@@ -219,7 +219,7 @@ Google Home would only control the Belkin smart plugs and the Logitech Harmony H
 
 I wanted more, so I started looking at the smart home hubs.  Since I had ten Velux devices which supported the rare [IO-HomeControl](http://www.io-homecontrol.com/index.php/en/) protocol plus three Somfy Huna blinds, I thought I would try out the Somfy Tahoma hub.  Like many companies, Somfy claimed great things for their hub.  The reality was very different and the product was a huge, huge disappointment, particularly for the price point: £262!!!!
 
-The web-based used interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They seem to think putting badly designed icons of your devices on a badly drawn background of a house will somehow improve the experience!
+The web-based user interface is awful. Not exactly designed, but more thrown together. First, you select your dwelling (house, flat etc.) which uses some dreadful background graphics that a child could draw better. They seem to think putting badly designed icons of your devices on a badly drawn background of a house will somehow improve the experience!
 
 You need to be very resourceful to figure out how to pair the devices as the on-screen prompts are useless. Rather than simply discovering the Velux devices, I eventually guessed that I needed to copy the settings over from my Velux remote control to the new Tahoma hub.  Given the Velux remote can auto-discover the components, why can’t the Tahoma?  
 
@@ -241,7 +241,7 @@ SmartThings did have an early win. The Logitech Harmony Hub can integrate with S
 
 SmartThings has this Jekyll and Hyde relationship with two apps: the new app has several missing features, so you must install the old SmartThings app as well.  What makes matters worse is that both apps are equally badly designed, and the support documentation would often describe how to use the app to achieve your purpose, but it was never clear which of the two apps they meant.  In addition, there was no web site to control your home which is odd given that SmartThings is a cloud-based system.  The only web site they do have is a badly designed developer focused site which lists your components and their configuration.
 
-As showen in the table below, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home.
+As shown in the table below, SmartThings was no better at integrating my existing hotchpotch of equipment than Google Home.
 
 <table class="blueTable">
   <thead>
@@ -358,16 +358,7 @@ Given I had the [Salus iT550](https://salus-controls.com/uk/product/it500/), I h
 
 <img align="right" height="140px" src="../assets/images/HowEBay/meross_trv_fail.png"/>
 
-SmartThings did have a cloud to cloud integration and Meross make a big thing about their devices been controllable via IFTTT.  However, I did notice that not a single word was mentioned on any web site about the Meross TRVs been controllable in the same manner.  So, I contacted Meross product support and they provided a nebulous reply that kind of implied the TRVs were supported.   I did not like the fact the [Meross TRVs](https://www.meross.com/product/30/article/) require their own [Wi-Fi gateway](https://www.meross.com/product/31/article/), but I could live with that if they worked.  Pairing the Meross kit to their own app was easy.  However, when I came to pair SmartThings with Meross using the cloud integration, the Meross turned into a monster, destroying all my SmartThings settings making it forgot all my devices.  This was not cloud integration, it was cloud warfare!   So, the device was returned to Amazon unwanted.  Another note was sent to Meross product support telling them of their product’s failings, but I never got a reply or an apology.
-
-## The Chromecast insurgency
-
-> *Google Chromecast Audio x 4 purchased 18<sup>th</sup> Nov 2019 – Still on the journey*
-
-<img align="right" width="200px" src="../assets/images/HowEBay/google_chromecast_audio.png"/>
-
-Years ago, I had invested in a multiroom audio system. I had a Logitech Squeezebox Touch in every room streaming music from a central Logitech Music Server (LMS).  Of course, each Squeezebox Touch needed an amplifier and speakers to work and the LMS needed the server on which to run. The whole set up was reasonably expensive, but in my view far cheaper than the equivalent Sonos system and far more flexible.  The LMS had a range of dedicated tinkers that kept providing extensions for the server such as Spotify and [Tidal](https://www.tidal.com) integration.  The [Netgear ReadyNAS](https://www.netgear.com/business/products/storage/readynas/) server could run not only LMS but also Plex. 
-Spurred on by the announcement that Google had stopped their manufacture, I purchased a couple of [Google Chromecast Audio](https://www.whathifi.com/google/chromecast-audio/review) devices and was amazed to find just how good they were! Firstly, they have a *full dynamic range mode* so that they can drive my stereo system to an acceptable level. Also, to my surprise they have a group mode so that the same music can be streamed to several rooms (i.e. multiroom). 
+SmartThings did have a cloud to cloud integration and Meross make a big thing about their devices been controllable via IFTTT.  However, I did notice that not a single word was mentioned on any web site about the Meross TRVs been controllable in the same manner.  So, I contacted Meross product support and they provided a nebulous reply that implied the TRVs were supported.   I did not like the fact the [Meross TRVs](https://www.meross.com/product/30/article/) require their own [Wi-Fi gateway](https://www.meross.com/product/31/article/), but I could live with that if they worked.  Pairing the Meross kit to their own app was easy.  However, when I came to pair SmartThings with Meross using the cloud integration, the Meross turned into a monster, destroying all my SmartThings settings making it forgot all my devices.  This was not cloud integration, it was cloud warfare!   So, the device was returned to Amazon unwanted.  Another note was sent to Meross product support telling them of their product’s failings, but I never got a reply or an apology.
 
 ## Home revolution 
 
@@ -378,6 +369,26 @@ Spurred on by the announcement that Google had stopped their manufacture, I purc
 Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed [Home Assistant](https://www.home-assistant.io/).  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   [Home Assistant](https://www.home-assistant.io/) supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list keeps growing by the day.  
 
 Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped SmartThings crown, at this point I still used SmartThings as my Zigbee and Z-Wave gateway.  However, after a while the HA / SmartThings integration started getting unreliable, often displaying a fleeting message *“Call to the SmartThings server failed”*. I partly blamed this on the Meross Monster, but I did hanker after a non-internet-based solution to my Zigbee communication.
+
+## Fanning the winds of change
+
+> *Xiaomi Aqara Temperature and humidity sensors purchased Jan 2020 – Still on the journey*
+
+<img align="right" width="180px" src="../assets/images/HowEBay/xiaomi-aqara-temperature-and-humidity-sensor.jpg"/> 
+
+The bathroom fan used go on and off with the light switch. This was particularly annoying as the fan is noisy, especially at night. Often, we would disable the fan with the tri-pole switch, but this meant people had to proactively remember to flick on the switch before having a shower - which they never did! Also, after having a shower, the fan goes off with the light switch, thus leaving behind a steamy bathroom.
+
+So I replaced the tri-pole switch with a [Sonoff](https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series) and put a tiny [Xiaomi Aqara temperature and humidity sensor](https://xiaomi-mi.com/sockets-and-sensors/aqara-temperature-and-humidity-sensor/) in the bathroom.  Now [Home Assistant](https://www.home-assistant.io/) switches on the bathroom fan when the humidity goes over 75% and off again when it drops below this point. The result is that the fan only comes on when it is needed. No more, no less. No more noisy fans or steamy bathrooms!
+
+## Secure travels
+
+> *Risco LightSys 2 Security & Fire Alarm purchased Nov 2016 - Still on the journey*
+
+<img align="right" width="160px" src="../assets/images/HowEBay/risco_lightsys2.jpg"/>
+
+I really thought that integration of the Risco security alarm would be the last thing I managed, but a [Home Assistant enthusiast](https://github.com/lucacalcaterra/risco-mqtt-bridge) has done an integration, so the installation could not be easier.  
+
+Now, when the alarm is set, lights around the apartment are automatically turned on and off after sunset to give the impression someone is at home.  I can also switch the alarm off remotely when a new cleaner turns up.
 
 ## The Elelabs shield wall
 
@@ -404,13 +415,22 @@ After the absolute disaster of the Shield, the Conbee II was like meeting the Sa
 
 I had hankered after a way to control my Velux Integra roof windows for quite a while.  But I baulked at the idea of spending £180 on the Velux Active gateway that would allow me to control these devices when I already had a set of perfectly adequate remote controls (albeit not integrated with HA).  Then it occurred to me.  Each window came with a Velux KLR200 control pad. One control could control all five windows and five blinds.  So, I only needed to keep one controller as a backup to the gateway.  A quick check on eBay indicated that I could potentially sell each KLR200 for £70 or more.   So, the eBay selling frenzy began.  The redundant SmartThings hub was sold alongside the MiLight controllers and various bits and pieces from my loft. 
 
+## The Chromecast insurgency
+
+> *Google Chromecast Audio x 4 purchased 18<sup>th</sup> Nov 2019 – Still on the journey*
+
+<img align="right" width="200px" src="../assets/images/HowEBay/google_chromecast_audio.png"/>
+
+Years ago, I had invested in a multiroom audio system. I had a Logitech Squeezebox Touch in every room streaming music from a central Logitech Music Server (LMS).  Of course, each Squeezebox Touch needed an amplifier and speakers to work and the LMS needed the server on which to run. The whole set up was reasonably expensive, but in my view far cheaper than the equivalent Sonos system and far more flexible.  The LMS had a range of dedicated tinkers that kept providing extensions for the server such as Spotify and [Tidal](https://www.tidal.com) integration.  The [Netgear ReadyNAS](https://www.netgear.com/business/products/storage/readynas/) server could run not only LMS but also Plex. 
+Spurred on by the announcement that Google had stopped their manufacture, I purchased a couple of [Google Chromecast Audio](https://www.whathifi.com/google/chromecast-audio/review) devices and was amazed to find just how good they were! Firstly, they have a *full dynamic range mode* so that they can drive my stereo system to an acceptable level. Also, to my surprise they have a group mode so that the same music can be streamed to several rooms (i.e. multiroom). 
+
 ## Farewell sweet Touch
 
 > *Logitech Squeezebox Touch x 6 purchased 2011 / 2012  - Sold Feb 2020*
 
 <img align="right" width="160px" src="../assets/images/HowEBay/logitech_squeezebox_touch_sold.png"/>
 
-The next victim was my old multiroom audio system.  After a few months of running both systems in parallel I found I hardly used Logitech system anymore; streaming [Tidal](https://tidal.com/) to Chromecast Audio was so, so convenient. Therefore, the Logitech Squeezebox Touch units were all sold and my use of [Plex](https://www.plex.tv) media server expanded to encompass my own music collection. I always had a love/hate relationship with the [Logitech Music Server (LMS)](https://en.wikipedia.org/wiki/Logitech_Media_Server), so I was very glad to see it go!  Logitech stopped selling the Squeezebox equipment a long time ago, but there was a dedicated following and heavy demand on eBay.  I even managed to sell two broken devices for spare parts.  I later heard from the buyer who had managed to fix them.  Good on him!  
+After a few months of running both multiroom systems in parallel I found I hardly used Logitech system anymore; streaming [Tidal](https://tidal.com/) to Chromecast Audio was so, so convenient. Therefore, the Logitech Squeezebox Touch units were all sold and my use of [Plex](https://www.plex.tv) media server expanded to encompass my own music collection. I always had a love/hate relationship with the [Logitech Music Server (LMS)](https://en.wikipedia.org/wiki/Logitech_Media_Server), so I was very glad to see it go!  Logitech stopped selling the Squeezebox equipment a long time ago, but there was a dedicated following and heavy demand on eBay.  I even managed to sell two broken devices for spare parts.  I later heard from the buyer who had managed to fix them.  Good on him!  
 
 ## Goodbye faithful Belkin
 
@@ -419,16 +439,6 @@ The next victim was my old multiroom audio system.  After a few months of runnin
 <img align="right" height="140px" src="../assets/images/HowEBay/wemo_sold.png"/>
 
 With monies in my eBay bank, I decided to rationalise my technology.  So I replaced the aging Wi-Fi based Belkin devices with SmartThings Zigbee smart plugs.  There are cheaper smart plugs, but I knew the SmartThings devices were reliable as I had three already.  The ridiculous thing is that I got more for selling the five-year-old Belkin smart plugs than I paid for brand-new SmartThings replacements.  Go figure!
-
-## Secure travels
-
-> *Risco LightSys 2 Security & Fire Alarm purchased Nov 2016 - Still on the journey*
-
-<img align="right" width="160px" src="../assets/images/HowEBay/risco_lightsys2.jpg"/>
-
-I really thought that integration of the Risco security alarm would be the last thing I managed, but a [Home Assistant enthusiast](https://github.com/lucacalcaterra/risco-mqtt-bridge) has done an integration, so the installation could not be easier.  
-
-Now, when the alarm is set, lights around the apartment are automatically turned on and off after sunset to give the impression someone is at home.  I can also switch the alarm off remotely when a new cleaner turns up.
 
 ## The Wiser road to a better climate
 
@@ -463,16 +473,6 @@ My lounge AV is built around my aging stereo system.  Although the [Audiolab](ht
 The final problem of the manual switches on the [Audiolab](https://www.audiolab.co.uk/) equipment was solved by a Smart Plug.  I simply leave the [Audiolab](https://www.audiolab.co.uk/) equipment switched on and have the Smart Plug turn on the power when requested by a Harmony Hub state change.  
 
 The result is that a collection of new and aging equipment works together flawlessly.
-
-## Fanning the winds of change
-
-> *Xiaomi Aqara Temperature and humidity sensors purchased Jan 2020 – Still on the journey*
-
-<img align="right" width="180px" src="../assets/images/HowEBay/xiaomi-aqara-temperature-and-humidity-sensor.jpg"/> 
-
-The bathroom fan used go on and off with the light switch. This was particularly annoying as the fan is noisy, especially at night. Often, we would disable the fan with the tri-pole switch, but this meant people had to proactively remember to flick on the switch before having a shower - which they never did! Also, after having a shower, the fan goes off with the light switch, thus leaving behind a steamy bathroom.
-
-So I replaced the tri-pole switch with a [Sonoff](https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series) and put a tiny [Xiaomi Aqara temperature and humidity sensor](https://xiaomi-mi.com/sockets-and-sensors/aqara-temperature-and-humidity-sensor/) in the bathroom.  Now [Home Assistant](https://www.home-assistant.io/) switches on the bathroom fan when the humidity goes over 75% and off again when it drops below this point. The result is that the fan only comes on when it is needed. No more, no less. No more noisy fans or steamy bathrooms!
 
 ## Fruitless Bluefruit 
 
@@ -647,7 +647,7 @@ I cannot say that my home automation journey is over. I have several territories
 If you would like to know exactly how I use [Home Assistant for Home Automation click this link](https://github.com/DrJohnT/HomeAssistantPublicConfig).
 
 ## Comment on this blog post
-<div class="fb-comments" data-href="https://drjohnt.github.io/blog_posts/2020-04-21-ha_journey.html" data-numposts="7" data-width="640" data-order-by="reverse_time"></div>
+<div class="fb-comments" data-href="https://drjohnt.github.io/blog_posts/2020-04-21-ha_journey.html" data-numposts="5" data-width="680" data-order-by="reverse_time"></div>
 
 <p> &nbsp;</p>
           
