@@ -368,8 +368,6 @@ SmartThings did have a cloud to cloud integration and Meross make a big thing ab
 
 Having been disappointed with SmartThings, I decided it was time to roll up my sleeves and write some serious code.  To that end I purchased Raspberry Pi and installed [Home Assistant](https://www.home-assistant.io/).  To my surprise, apart from a little YAML, there was not a lot of things for which I needed to write code.   [Home Assistant](https://www.home-assistant.io/) supports so many things out of the box and discovers many more automatically that there is little need to resort to coding.  Soon many more of my devices were under my control and the list keeps growing by the day.  
 
-Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped SmartThings crown, at this point I still used SmartThings as my Zigbee and Z-Wave gateway.  However, after a while the HA / SmartThings integration started getting unreliable, often displaying a fleeting message *“Call to the SmartThings server failed”*. I partly blamed this on the Meross Monster, but I did hanker after a non-internet-based solution to my Zigbee communication.
-
 ## Fanning the winds of change
 
 > *Xiaomi Aqara Temperature and humidity sensors purchased Jan 2020 – Still on the journey*
@@ -395,6 +393,8 @@ Now, when the alarm is set, lights around the apartment are automatically turned
 > *Elelabs Shield purchased 4<sup>th</sup> Jan 2020 – Currently collecting dust in the attic*
 
 <img align="right" height="130px" src="../assets/images/HowEBay/elelabs_shield_fail.png"/>
+
+Although [Home Assistant](https://www.home-assistant.io/) (HA) had usurped SmartThings crown, at this point I still used SmartThings as my Zigbee and Z-Wave gateway.  However, after a while the HA / SmartThings integration started getting unreliable, often displaying a fleeting message *“Call to the SmartThings server failed”*. I partly blamed this on the Meross Monster, but I did hanker after a non-internet-based solution to my Zigbee communication.
 
 I purchased the [Elelabs Zigbee Raspberry Pi Shield](https://elelabs.com/products/elelabs-zigbee-shield.html) to replace SmartThings as a Zigbee hub.  I had presumed it would be plug and play, but the device simply would not work.   I spent night after night screwing around with docker configs, building and rebuilding my machine, but I just could not get it to work.  After many interactions with Elelabs support and some 40 hours (yes 40 hours!!!) of wasted time, I gave up.  Clearly, they call the product shield for a reason: shield wall, a blockage in your path!
 I got my money back via PayPal refund.  Their support guy emailed me telling me to keep the device and asked if I would check out their new firmware when it became available.  As if!
@@ -460,6 +460,22 @@ After looking at buying individual TRVs like the Salus and Meross described abov
 
 I now have room by room heating control which adapts to where we are and what we are doing. 
 
+## What's the WAF?
+
+> *Xiaomi Aqara double wall switch purchased 20<sup>th</sup> March 2020 - Still on the journey*
+
+<img align="right" height="160px" src="../assets/images/HowEBay/xiaomi-aqara-wall-switch.jpg"/>
+
+Many in the home automation community talk about WAF, the *Wife Acceptance Factor*.  Well, by far my partner's favourite addition to the apartment is the [Xiaomi Aqara double wall switch](https://xiaomi-mi.com/sockets-and-sensors/remote-switch-for-aqara-smart-light-wall-switch-double-key/) which I have configured to performs several actions:
+* Left hand switch:
+    * Single click - switches the hall LED strip lights on/off (WHITE)
+    * Double click - switches the hall LED strip lights on/off (RED)
+    * Long press - switches on/off the central heating and the Google Mini announces the status: *The central heating has now been turned ON*
+* Right hand switch:
+    * Single click - switches the lounge LED strip lights on/off (WHITE)
+    * Double click - switches the lounge LED strip lights on/off (RED)
+    * Long press - switches on/off the hot water and the Google Mini announces the status: *The hot water has now been turned ON*
+
 ## Sweet, sweet Harmony
 
 > *Logitech Harmony Companion & Hub purchased 2014 - Still on the journey*
@@ -481,22 +497,6 @@ The result is that a collection of new and aging equipment works together flawle
 <img align="right" height="120px" src="../assets/images/HowEBay/adafruit.png"/>
 
 Given my success to date of my home automation journey with [Home Assistant](https://www.home-assistant.io/) , I was really hoping that I could tame the Somfy Huna Bluetooth blinds.  However, the task of reverse engineering the Bluetooth LE commands has so far proved beyond me.  I tried the nRF app from Nordic Telecom plus Wireshark and the Adafruit Bluefruit LE Sniffer for BLE 4.0, but the Bluetooth traffic is so chatty, I cannot isolate the commands that control the blinds.  Ah well, perhaps for another day when I have time on my hands.  Perhaps during a period of lockdown...
-
-## What's the WAF?
-
-> *Xiaomi Aqara double wall switch purchased 20<sup>th</sup> March 2020 - Still on the journey*
-
-<img align="right" height="160px" src="../assets/images/HowEBay/xiaomi-aqara-wall-switch.jpg"/>
-
-Many in the home automation community talk about WAF, the *Wife Acceptance Factor*.  Well, by far my partner's favourite addition to the apartment is the [Xiaomi Aqara double wall switch](https://xiaomi-mi.com/sockets-and-sensors/remote-switch-for-aqara-smart-light-wall-switch-double-key/) which I have configured to performs several actions:
-* Left hand switch:
-    * Single click - switches the hall LED strip lights on/off (WHITE)
-    * Double click - switches the hall LED strip lights on/off (RED)
-    * Long press - switches on/off the central heating and the Google Mini announces the status: *The central heating has now been turned ON*
-* Right hand switch:
-    * Single click - switches the lounge LED strip lights on/off (WHITE)
-    * Double click - switches the lounge LED strip lights on/off (RED)
-    * Long press - switches on/off the hot water and the Google Mini announces the status: *The hot water has now been turned ON*
 
 ## The Assistant re-joins the journey
 
