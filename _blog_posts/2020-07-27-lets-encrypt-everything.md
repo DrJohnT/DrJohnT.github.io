@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Let's Encrypt everything using your domain
-description: Dr John's Techology Blog - Sparks from the Anvil
+title: Let's Encrypt everything using yourdomain.com
+description: Automate renewal of your Let's Encrypt certificates on all your servers
 category: Home Automation
-published: 2020-04-22
+published: 2020-07-28
 image: ./assets/images/Letsencrypt.jpg
 ---
 
